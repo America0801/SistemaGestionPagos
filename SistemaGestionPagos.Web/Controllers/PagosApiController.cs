@@ -16,9 +16,20 @@ namespace SistemaGestionPagos.Web.Controllers
             _context = context;
         }
 
+        private static DateTime ToUtc(DateTime dt) =>
+            dt.Kind switch
+            {
+                DateTimeKind.Unspecified => DateTime.SpecifyKind(dt, DateTimeKind.Utc),
+                DateTimeKind.Local => dt.ToUniversalTime(),
+                _ => dt
+            };
+
         [HttpPost]
         public async Task<IActionResult> Crear([FromForm] Pago pago, IFormFile? factura, IFormFile? retencion)
         {
+            // Normalizar fecha a UTC para Npgsql (timestamptz)
+            pago.Fecha = ToUtc(pago.Fecha);
+
             if (factura != null)
             {
                 using var ms = new MemoryStream();
@@ -34,8 +45,8 @@ namespace SistemaGestionPagos.Web.Controllers
                 pago.NombreRetencion = retencion.FileName;
             }
 
-            DateTime fechaActual = DateTime.Now;
-            if (pago.Fecha > fechaActual)
+            // Validación contra fecha actual (UTC)
+            if (pago.Fecha > DateTime.UtcNow)
             {
                 return BadRequest("La fecha ingresada no puede ser superior a la actual");
             }
@@ -85,7 +96,7 @@ namespace SistemaGestionPagos.Web.Controllers
             if (pago == null)
                 return NotFound();
 
-            pago.Fecha = updated.Fecha;
+            pago.Fecha = ToUtc(updated.Fecha);   // 🔧 normaliza a UTC
             pago.Monto = updated.Monto;
             pago.Beneficiario = updated.Beneficiario;
             pago.TipoPago = updated.TipoPago;
@@ -345,7 +356,5 @@ namespace SistemaGestionPagos.Web.Controllers
 
             return Ok(pagos);
         }
-
-
     }
 }

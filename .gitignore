@@ -1,0 +1,10 @@
+
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+*.log
+*.sql
+*.exe
+*.db

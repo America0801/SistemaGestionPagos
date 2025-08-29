@@ -16,6 +16,14 @@ namespace SistemaGestionPagos.Web.Controllers
             _context = context;
         }
 
+        private static DateTime ToUtc(DateTime dt) =>
+            dt.Kind switch
+            {
+                DateTimeKind.Unspecified => DateTime.SpecifyKind(dt, DateTimeKind.Utc),
+                DateTimeKind.Local => dt.ToUniversalTime(),
+                _ => dt
+            };
+
         [HttpGet]
         public async Task<IActionResult> ObtenerTodos()
         {
@@ -32,7 +40,10 @@ namespace SistemaGestionPagos.Web.Controllers
             if (string.IsNullOrWhiteSpace(proyecto.Nombre))
                 return BadRequest("Nombre requerido");
 
+            // Normalizar fecha de inicio
+            proyecto.FechaInicio = ToUtc(proyecto.FechaInicio);
             proyecto.Estado = "en proceso";
+
             _context.Proyectos.Add(proyecto);
             await _context.SaveChangesAsync();
 
@@ -71,6 +82,7 @@ namespace SistemaGestionPagos.Web.Controllers
             if (proyecto == null) return NotFound();
 
             movimiento.ProyectoId = id;
+            movimiento.Fecha = ToUtc(movimiento.Fecha); // 🔧 normalizar fecha del movimiento
 
             if (documento != null)
             {
@@ -82,6 +94,9 @@ namespace SistemaGestionPagos.Web.Controllers
 
             _context.MovimientosProyecto.Add(movimiento);
             await _context.SaveChangesAsync();
+
+            // Asegurar que devolvemos la lista actualizada de movimientos
+            await _context.Entry(proyecto).Collection(p => p.Movimientos).LoadAsync();
 
             return Ok(new
             {
