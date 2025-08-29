@@ -2,8 +2,7 @@ services:
   - type: web
     name: sistema-gestion-pagos
     env: dotnet
-    rootDirectory: SistemaGestionPagos.Web
-    buildCommand: "dotnet publish -c Release -o out"
+    buildCommand: "dotnet publish ./SistemaGestionPagos.Web/SistemaGestionPagos.Web.csproj -c Release -o out"
     startCommand: "dotnet out/SistemaGestionPagos.Web.dll --urls=http://0.0.0.0:$PORT"
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
