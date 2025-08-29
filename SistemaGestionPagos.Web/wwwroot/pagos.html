@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Retención IVA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #e6f0f8;
+        }
+
+        .wrapper {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 240px;
+            background-color: #1e3a5f;
+            color: white;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            z-index: 1050;
+        }
+
+        .sidebar.show {
+            transform: translateX(0);
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 14px 20px;
+            color: #cfe6ff;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .sidebar a:hover,
+        .sidebar a.active {
+            background-color: #3f5f87;
+            color: #ffffff;
+        }
+
+        .sidebar .user {
+            padding: 1rem 20px;
+            font-weight: bold;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 1.5rem;
+            overflow-y: auto;
+            background-color: #dbeaf7;
+            margin-left: 0;
+            transition: margin-left 0.3s ease;
+        }
+
+        .content.shifted {
+            margin-left: 240px;
+        }
+
+        .toggle-btn {
+            background-color: transparent;
+            border: none;
+            font-size: 24px;
+            color: #1e3a5f;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #ffffff;
+            padding: 0.75rem 1.25rem;
+            border-bottom: 2px solid #c0d3e8;
+        }
+
+        .btn-primary,
+        .btn-success {
+            border-radius: 8px;
+        }
+
+        .card-custom {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sidebar" id="sidebar">
+        <div class="user" id="usuarioNombre"><i class="fas fa-user me-2"></i> Usuario</div>
+        <a href="index.html"><i class="fas fa-bars me-2"></i> Menú Principal</a>
+        <a href="pagos.html" class="active"><i class="fas fa-wallet me-2"></i> Pagos Generales</a>
+        <a href="retencionIVA.html"><i class="fas fa-file-invoice-dollar me-2"></i> Retención IVA </a>
+        <a href="retencionISR.html"><i class="fas fa-receipt me-2"></i> Retención ISR</a>
+        <a href="planillaLuisRoca.html"><i class="fas fa-users me-2"></i> Planilla Luis Roca</a>
+        <a href="planillaProyecto.html"><i class="fas fa-briefcase me-2"></i> Planilla Proyecto</a>
+        <a href="igss.html"><i class="fas fa-building me-2"></i> IGSS Oficina</a>
+        <a href="agua.html"><i class="fas fa-tint me-2"></i> Servicio de Agua</a>
+        <a href="basura.html"><i class="fas fa-trash me-2"></i> Basura</a>
+        <a href="renta.html"><i class="fas fa-house me-2"></i> Renta</a>
+        <a href="subirPlanillas.html"><i class="fas fa-upload me-2"></i> Subir Planillas</a>
+        <a href="proyectos.html"><i class="fas fa-diagram-project me-2"></i> Proyectos</a>
+        <a href="#" onclick="cerrarSesion()"><i class="fas fa-sign-out-alt me-2"></i> Cerrar sesión</a>
+    </div>
+
+    <div class="wrapper">
+        <div class="content" id="mainContent">
+            <div class="navbar">
+                <button class="toggle-btn me-3" onclick="toggleSidebar()"><i class="fas fa-bars"></i></button>
+                <h5 class="mb-0 text-primary"><i class="fas fa-wallet me-2"></i> RESUMEN DE PAGOS </h5>
+            </div>
+
+            <div class="card card-custom mt-4">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="fw-bold mb-0">Pagos registrados</h4>
+                </div>
+
+                <table class="table table-bordered table-hover bg-white rounded">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Monto</th>
+                            <th>Beneficiario</th>
+                            <th>Tipo de Pago</th>
+                            <th>Documentos</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaPagos"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalPago" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form id="formularioPago">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Registrar Pago - Retención IVA</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" name="TipoPago" value="TipoPago" />
+                        <label class="form-label">Fecha</label>
+                        <input type="date" name="Fecha" class="form-control" required />
+                        <label class="form-label mt-2">Monto</label>
+                        <input type="number" name="Monto" step="0.01" class="form-control" required />
+                        <label class="form-label mt-2">Beneficiario</label>
+                        <input type="text" name="Beneficiario" class="form-control" required />
+                        <label class="form-label mt-2">Documento (PDF)</label>
+                        <input type="file" name="documento" accept=".pdf" class="form-control" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const sidebar = document.getElementById("sidebar");
+        const mainContent = document.getElementById("mainContent");
+
+        function toggleSidebar() {
+            sidebar.classList.toggle("show");
+            mainContent.classList.toggle("shifted");
+        }
+
+        try {
+            const usuario = JSON.parse(localStorage.getItem("usuario"));
+            if (!usuario || (!usuario.username && !usuario.nombre)) throw new Error("No logueado");
+            const nombreUsuario = usuario.nombre || usuario.username || "Usuario";
+            document.getElementById("usuarioNombre").innerHTML = `<i class="fas fa-user me-2"></i> ${nombreUsuario}`;
+        } catch {
+            localStorage.removeItem("usuario");
+            window.location.href = "login.html";
+        }
+
+        function cerrarSesion() {
+            localStorage.removeItem("usuario");
+            window.location.href = "login.html";
+        }
+
+        const tabla = document.getElementById("tablaPagos");
+        const form = document.getElementById("formularioPago");
+        const modal = document.getElementById("modalPago");
+        const bsModal = bootstrap.Modal.getOrCreateInstance(modal);
+
+        async function cargarPagos() {
+            const res = await fetch("/api/PagosApi");
+            const datos = await res.json();
+
+            tabla.innerHTML = "";
+            datos.forEach(p => {
+                const fila = document.createElement("tr");
+
+                // Botones de documentos (muestra uno, el otro o ambos)
+                const tieneFactura = p.tieneFactura ?? p.TieneFactura;
+                const tieneRetencion = p.tieneRetencion ?? p.TieneRetencion;
+
+                const facturaBtn = tieneFactura
+                    ? `<a class="btn btn-sm btn-outline-primary me-2 text-center"
+           href="/api/PagosApi/ver-factura/${p.id}" target="_blank">
+         <i class="fas fa-file-invoice me-1 text-center"></i> Factura
+       </a>`
+                    : "";
+
+                const retencionBtn = tieneRetencion
+                    ? `<a class="btn btn-sm btn-outline-secondary text-center"
+           href="/api/PagosApi/ver-retencion/${p.id}" target="_blank">
+         <i class="fas fa-receipt me-1 text-center"></i> Retención
+       </a>`
+                    : "";
+
+                const documentosHTML = (facturaBtn || retencionBtn)
+                    ? facturaBtn + retencionBtn
+                    : '<span class="text-muted">Sin archivos</span>';
+
+                fila.innerHTML = `
+    <td>${new Date(p.fecha).toLocaleDateString()}</td>
+    <td>Q ${Number(p.monto).toFixed(2)}</td>
+    <td>${p.beneficiario}</td>
+    <td>${p.tipoPago}</td>
+    <td>${documentosHTML}</td>
+  `;
+                tabla.appendChild(fila);
+            });
+        }
+
+        form.addEventListener("submit", async e => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const res = await fetch("/api/PagosApi", {
+                method: "POST",
+                body: formData
+            });
+
+            if (res.ok) {
+                form.reset();
+                bsModal.hide();
+                cargarPagos();
+            } else {
+                alert("Error al guardar");
+            }
+        });
+
+        cargarPagos();
+    </script>
+</body>
+
+</html>

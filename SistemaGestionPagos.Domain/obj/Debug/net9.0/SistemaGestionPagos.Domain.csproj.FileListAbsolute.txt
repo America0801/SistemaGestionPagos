@@ -1,0 +1,11 @@
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\bin\Debug\net9.0\SistemaGestionPagos.Domain.deps.json
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\bin\Debug\net9.0\SistemaGestionPagos.Domain.dll
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\bin\Debug\net9.0\SistemaGestionPagos.Domain.pdb
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.AssemblyInfoInputs.cache
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.AssemblyInfo.cs
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.dll
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\refint\SistemaGestionPagos.Domain.dll
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.pdb
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\ref\SistemaGestionPagos.Domain.dll

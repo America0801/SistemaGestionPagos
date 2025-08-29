@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyectos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #e6f0f8
+        }
+
+        .wrapper {
+            display: flex;
+            height: 100vh;
+            overflow: hidden
+        }
+
+        .sidebar {
+            width: 240px;
+            background: #1e3a5f;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            transform: translateX(-100%);
+            transition: transform .3s ease;
+            z-index: 1050
+        }
+
+        .sidebar.show {
+            transform: translateX(0)
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 14px 20px;
+            color: #cfe6ff;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(255, 255, 255, .1)
+        }
+
+        .sidebar a:hover,
+        .sidebar a.active {
+            background: #3f5f87;
+            color: #fff
+        }
+
+        .sidebar .user {
+            padding: 1rem 20px;
+            font-weight: bold;
+            border-bottom: 1px solid rgba(255, 255, 255, .1)
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 1.5rem;
+            overflow-y: auto;
+            background: #dbeaf7;
+            margin-left: 0;
+            transition: margin-left .3s ease
+        }
+
+        .content.shifted {
+            margin-left: 240px
+        }
+
+        .toggle-btn {
+            background: transparent;
+            border: none;
+            font-size: 24px;
+            color: #1e3a5f
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background: #fff;
+            padding: .75rem 1.25rem;
+            border-bottom: 2px solid #c0d3e8
+        }
+
+        .btn-primary,
+        .btn-success {
+            border-radius: 8px
+        }
+
+        .card-custom {
+            background: #fff;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .1)
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="user" id="usuarioNombre"><i class="fas fa-user me-2"></i> Usuario</div>
+        <a href="index.html"><i class="fas fa-bars me-2"></i> Menú Principal</a>
+        <a href="pagos.html"><i class="fas fa-wallet me-2"></i> Pagos Generales </a>
+        <a href="retencionIVA.html"><i class="fas fa-file-invoice-dollar me-2"></i> Retención IVA</a>
+        <a href="retencionISR.html"><i class="fas fa-receipt me-2"></i> Retención ISR</a>
+        <a href="planillaLuisRoca.html"><i class="fas fa-users me-2"></i> Planilla Luis Roca</a>
+        <a href="planillaProyecto.html"><i class="fas fa-briefcase me-2"></i> Planilla Proyecto</a>
+        <a href="igss.html"><i class="fas fa-building me-2"></i> IGSS Oficina</a>
+        <a href="agua.html"><i class="fas fa-tint me-2"></i> Servicio de Agua</a>
+        <a href="basura.html"><i class="fas fa-trash me-2"></i> Basura</a>
+        <a href="renta.html"><i class="fas fa-house me-2"></i> Renta</a>
+        <a href="subirPlanillas.html"><i class="fas fa-upload me-2"></i> Subir Planillas</a>
+        <a href="proyectos.html" class="active"><i class="fas fa-diagram-project me-2"></i> Proyectos</a>
+        <a href="#" id="btnCerrarSesion"><i class="fas fa-sign-out-alt me-2"></i> Cerrar sesión</a>
+    </div>
+
+    <!-- Contenido -->
+    <div class="wrapper">
+        <div class="content" id="mainContent">
+            <div class="navbar">
+                <button class="toggle-btn me-3" id="toggleBtn"><i class="fas fa-bars"></i></button>
+                <h5 class="mb-0 text-primary"><i class="fas fa-diagram-project me-2"></i>Proyectos</h5>
+            </div>
+
+            <div class="card card-custom mt-4">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="fw-bold mb-0">Gestión de Proyectos</h4>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProyecto"
+                        id="btnNuevoProyecto">
+                        <i class="fas fa-plus me-1"></i> Nuevo Proyecto
+                    </button>
+                </div>
+
+                <table class="table table-bordered table-hover bg-white rounded">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Fecha Inicio</th>
+                            <th>Nombre</th>
+                            <th>Valor</th>
+                            <th>Estado</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaProyectos"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="position-fixed top-0 end-0 p-3" style="z-index:2000">
+        <div id="toastMsg" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive"
+            aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body" id="toastBody">Ok</div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Proyecto (Crear) -->
+    <div class="modal fade" id="modalProyecto" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form id="formProyecto" class="needs-validation" novalidate>
+                    <div class="modal-header">
+                        <h5 class="modal-title">Nuevo Proyecto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- alerta interna bonita -->
+                        <div id="formAlert" class="alert alert-danger d-none" role="alert"></div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Fecha Inicio</label>
+                            <input type="date" name="fechaInicio" class="form-control" required>
+                            <div class="invalid-feedback">La fecha de inicio es obligatoria.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Nombre</label>
+                            <input type="text" name="nombre" class="form-control" required>
+                            <div class="invalid-feedback">El nombre es obligatorio.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Valor</label>
+                            <input type="number" name="valor" step="0.01" class="form-control" required>
+                            <div class="invalid-feedback">El valor es obligatorio.</div>
+                        </div>
+                        <!-- No agregamos 'estado' en el formulario; se enviará como "Activo" automáticamente al crear -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-save me-1"></i> Guardar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Sidebar y sesión
+        const sidebar = document.getElementById("sidebar");
+        const mainContent = document.getElementById("mainContent");
+        document.getElementById("toggleBtn").addEventListener("click", () => {
+            sidebar.classList.toggle("show");
+            mainContent.classList.toggle("shifted");
+        });
+        try {
+            const usuario = JSON.parse(localStorage.getItem("usuario"));
+            const nombreUsuario = usuario?.nombre || usuario?.username || "Usuario";
+            document.getElementById("usuarioNombre").innerHTML = `<i class="fas fa-user me-2"></i> ${nombreUsuario}`;
+        } catch {
+            localStorage.removeItem("usuario"); window.location.href = "login.html";
+        }
+        document.getElementById("btnCerrarSesion").addEventListener("click", (e) => { e.preventDefault(); localStorage.removeItem("usuario"); window.location.href = "login.html"; });
+
+        // Helpers UI
+        const toastEl = document.getElementById("toastMsg");
+        const toastBody = document.getElementById("toastBody");
+        const bsToast = new bootstrap.Toast(toastEl, { delay: 2000 });
+        function showToast(msg, variant = "success") {
+            toastEl.className = `toast align-items-center text-bg-${variant} border-0`;
+            toastBody.textContent = msg;
+            bsToast.show();
+        }
+        const form = document.getElementById("formProyecto");
+        const formAlert = document.getElementById("formAlert");
+        function showFormError(msg) { formAlert.textContent = msg; formAlert.classList.remove("d-none"); }
+        function hideFormError() { formAlert.textContent = ""; formAlert.classList.add("d-none"); }
+
+        const tabla = document.getElementById("tablaProyectos");
+        const BASE_API = "/api/proyectos";
+
+        async function cargarProyectos() {
+            const res = await fetch(BASE_API);
+            const proyectos = await res.json();
+            tabla.innerHTML = "";
+            proyectos.forEach(p => {
+                const id = p.id ?? p.Id;
+                const fecha = p.fechaInicio ?? p.FechaInicio;
+                const nombre = p.nombre ?? p.Nombre;
+                const valor = p.valor ?? p.Valor;
+                const estado = p.estado ?? p.Estado ?? "";
+
+                const fila = document.createElement("tr");
+                fila.innerHTML = `
+          <td>${fecha ? new Date(fecha).toLocaleDateString() : ""}</td>
+          <td>${nombre ?? ""}</td>
+          <td>Q${Number(valor || 0).toFixed(2)}</td>
+          <td>${estado}</td>
+          <td>
+            <a href="proyectoDetalle.html?id=${id}" class="btn btn-sm btn-warning">
+              <i class="fas fa-edit"></i> Editar
+            </a>
+          </td>`;
+                tabla.appendChild(fila);
+            });
+        }
+
+        // Crear proyecto (misma funcionalidad; se añade estado="Activo" automáticamente)
+        form.addEventListener("submit", async function (e) {
+            e.preventDefault();
+            hideFormError();
+            form.classList.add("was-validated");
+            if (!form.checkValidity()) {
+                showFormError("Completa todos los campos obligatorios.");
+                return;
+            }
+
+            const fd = new FormData(form);
+            const datos = Object.fromEntries(fd.entries());
+            datos.valor = parseFloat(datos.valor);
+            datos.estado = "Activo"; // por requisito: al crear queda Activo
+
+            const res = await fetch(BASE_API, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(datos)
+            });
+
+            if (res.ok) {
+                form.reset();
+                form.classList.remove("was-validated");
+                bootstrap.Modal.getInstance(document.getElementById("modalProyecto")).hide();
+                await cargarProyectos();
+                showToast("Proyecto creado correctamente");
+            } else {
+                try {
+                    const data = await res.json();
+                    const msg = data?.title || (data?.errors && Object.values(data.errors).flat().join(" ")) || "Error al guardar el proyecto.";
+                    showFormError(msg);
+                } catch {
+                    showFormError("Error al guardar el proyecto.");
+                }
+            }
+        });
+
+        // Cargar lista inicial
+        cargarProyectos();
+    </script>
+</body>
+
+</html>

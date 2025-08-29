@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Infrastructure\\SistemaGestionPagos.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Application\\SistemaGestionPagos.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Application\\SistemaGestionPagos.Application.csproj",
+        "projectName": "SistemaGestionPagos.Application",
+        "projectPath": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Application\\SistemaGestionPagos.Application.csproj",
+        "packagesPath": "C:\\Users\\rustr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rustr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Domain\\SistemaGestionPagos.Domain.csproj": {
+                "projectPath": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Domain\\SistemaGestionPagos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Domain\\SistemaGestionPagos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Domain\\SistemaGestionPagos.Domain.csproj",
+        "projectName": "SistemaGestionPagos.Domain",
+        "projectPath": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Domain\\SistemaGestionPagos.Domain.csproj",
+        "packagesPath": "C:\\Users\\rustr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rustr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Infrastructure\\SistemaGestionPagos.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Infrastructure\\SistemaGestionPagos.Infrastructure.csproj",
+        "projectName": "SistemaGestionPagos.Infrastructure",
+        "projectPath": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Infrastructure\\SistemaGestionPagos.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rustr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rustr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Application\\SistemaGestionPagos.Application.csproj": {
+                "projectPath": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Application\\SistemaGestionPagos.Application.csproj"
+              },
+              "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Domain\\SistemaGestionPagos.Domain.csproj": {
+                "projectPath": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Domain\\SistemaGestionPagos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

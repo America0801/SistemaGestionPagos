@@ -1,0 +1,5802 @@
+{
+  "Version": 1,
+  "Hash": "e9v4t1/345zNU8jfU2grNgRI42cG0ThjD00o9povXzs=",
+  "Source": "SistemaGestionPagos.Web",
+  "BasePath": "_content/SistemaGestionPagos.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SistemaGestionPagos.Web\\wwwroot",
+      "Source": "SistemaGestionPagos.Web",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0uw7w9ay02-oljagebzot.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "layout#[.{fingerprint=oljagebzot}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\layout.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6sqxtlm8w8",
+      "Integrity": "1hYc5soVHFov1ppiTBCiD7sLdgHxP5yZczlXzyC6bkg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\layout.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0wfuf3k1gx-fkkwbbglj0.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "retencionIVA#[.{fingerprint=fkkwbbglj0}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionIVA.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hckp0jqx96",
+      "Integrity": "QT8biHP4D3NbsJFZWxm2xOgOP6YIA3yNQzd39qyZDck=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionIVA.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\7j3e3h2ukt-zb4mezbigr.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "planillaLuisRoca#[.{fingerprint=zb4mezbigr}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaLuisRoca.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vauk4d85qx",
+      "Integrity": "mZGyFw5g527ibM2JbPXBA80AhCV6jo4JyMVyHOqfdFE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaLuisRoca.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\9nsiu70di5-kpi6oo8buz.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "planillaProyecto#[.{fingerprint=kpi6oo8buz}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaProyecto.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vubftbkmmi",
+      "Integrity": "x/LLdq6QHmcVNAPf6E2Xbrq1gMJxLExkGOPPbFTWKGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaProyecto.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\d2ucq239rd-4n5r6t2dtk.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "proyectos#[.{fingerprint=4n5r6t2dtk}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectos.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6al3542zxb",
+      "Integrity": "gtwUo2FdvNP6lgGiUDV0KoajCxj7SDZqAQCoAZyKNY0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectos.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\j2x227jb8t-xgx7rxz947.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "menu#[.{fingerprint=xgx7rxz947}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\menu.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "k7skc894e9",
+      "Integrity": "0AeKRoKTy5hFufkdtrvZk627jj4VebRdLJxIP7bE/js=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\menu.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kmz2klt2rn-z65gl278py.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "renta#[.{fingerprint=z65gl278py}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\renta.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "l0jgyy16w1",
+      "Integrity": "u4GKtSYoChSzeaOyCrFnOWjMrfjiAJIQs7YJO5OxslI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\renta.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kve2i0n75r-jm3kvtgran.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "subirPlanillas#[.{fingerprint=jm3kvtgran}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\subirPlanillas.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ol22zbzhoi",
+      "Integrity": "rPhI09XvxZNVuXT8Vymr/LI7trOT9hB3i2drjtZD1U4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\subirPlanillas.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\lrpoidw8yg-iedd43v8hh.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "proyectoDetalle#[.{fingerprint=iedd43v8hh}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectoDetalle.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "uruwnzlrd5",
+      "Integrity": "Nqlo5QK7qMn8clnglwWFPL44yXT+gIvXfcCfvZjz+S4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectoDetalle.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\m9qj97022a-0p6zbwl4zw.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "index#[.{fingerprint=0p6zbwl4zw}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "iglhnejdg5",
+      "Integrity": "HpoFwgv7IqKibCZhdxBYHYzhw8laOpHRq5SL9vdG9ek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\o6oy202o0d-muiq6ce2jy.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "basura#[.{fingerprint=muiq6ce2jy}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\basura.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "h9nnih2mge",
+      "Integrity": "havCBI/jUKhnLExYtj75cNwvPq1LoKGrE3kJ1Vg3Hb0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\basura.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\uzbzt6durg-xgj7vn5zwp.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "pagos#[.{fingerprint=xgj7vn5zwp}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\pagos.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5isdqsevtg",
+      "Integrity": "c0Robz0z2c/fED/Qs8YWJ2wHBjc18v7zAteJcJvRE8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\pagos.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\vpiek1gtk5-cibfkjt69x.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "retencionISR#[.{fingerprint=cibfkjt69x}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionISR.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pw30cyhpte",
+      "Integrity": "N0iZzeBIxUi0Iix27GgranLGrU/9t75tBjeClV7qPnc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionISR.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\y45aa4bzry-vhtdwpoi9w.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "agua#[.{fingerprint=vhtdwpoi9w}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\agua.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ti0ibg6hik",
+      "Integrity": "JZ4PzWON/kFpxrBioTcUmrFfsguF0bR/736BMF6T+NY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\agua.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\yl2zlaivit-4k38eqv5e4.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "login#[.{fingerprint=4k38eqv5e4}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\login.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mlbidtmh28",
+      "Integrity": "Omz+fewJCWAJymgNqCif53vWYKxKkeBeN1mJMkQaXJ4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\z8r28o9txw-zvdutbq12o.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "tipos#[.{fingerprint=zvdutbq12o}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\tipos.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "svohgwfg0f",
+      "Integrity": "OBh9U73CWQM863tGome8WWWBqD6893G/M/4S0Poxp70=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\tipos.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\zczh2kl9d7-seocu1oiwa.gz",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "igss#[.{fingerprint=seocu1oiwa}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\igss.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "21uhe9isjz",
+      "Integrity": "RmQQk4xJywZsfF7ojr3iflcrykH2Tp5/2WxCDNcyBaQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\igss.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\agua.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "agua#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vhtdwpoi9w",
+      "Integrity": "k/pKyb+o/kEQXXkHw90yQ5UezEY7MdoQArsFrFIveLo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\agua.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\basura.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "basura#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "muiq6ce2jy",
+      "Integrity": "7rdGrSvQczV/av3NugXMq9jGWLBo4zULvI6B7lTUYDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\basura.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\igss.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "igss#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "seocu1oiwa",
+      "Integrity": "bHcZKK5PmFv3vRNEg1xzhHy142xI9fbmMCI3bhtrpPY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\igss.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\index.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0p6zbwl4zw",
+      "Integrity": "pMePn8XhY6UvzN2XyBRipmsXDm6ZfrU9uAOB6qr0Zdk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\layout.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "layout#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oljagebzot",
+      "Integrity": "vPm6P85cmzMHuRCzSjt5lMjsqykugwZLYfamX/it/VU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\layout.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\login.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4k38eqv5e4",
+      "Integrity": "/JVWylRx+mCOsmJgjKJUzXbNDmse3iRZdS2vxOH+Ztw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\menu.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "menu#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xgx7rxz947",
+      "Integrity": "z8snQysYDOvdKW1R1sdOdNhzgB59v8yIdvTN7t2W4FY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\menu.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\pagos.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "pagos#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xgj7vn5zwp",
+      "Integrity": "r1YJArfb1Q2y2HLgb8TQYmspT4fOHQA5V1KVTi3KksU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pagos.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaLuisRoca.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "planillaLuisRoca#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zb4mezbigr",
+      "Integrity": "byld5jqvjel4+j4ZwvSNDvC/kT9Do2bR89GIx/aBWV0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\planillaLuisRoca.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaProyecto.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "planillaProyecto#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kpi6oo8buz",
+      "Integrity": "OFxaZakmTPAfMBwmji8X0wXYSiOd60I7gkBlGA6v5+c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\planillaProyecto.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectoDetalle.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "proyectoDetalle#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iedd43v8hh",
+      "Integrity": "5homSu38k3X+h9lTDl1Qwn5gqQxO/uILchd3fdnZN9w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\proyectoDetalle.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectos.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "proyectos#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4n5r6t2dtk",
+      "Integrity": "UA9Wz1qk1mV/1P2fUCbWTBbV+YwimYVWt4qznSKbQeE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\proyectos.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\renta.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "renta#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z65gl278py",
+      "Integrity": "S2vHaKGT4Rcd1tlSARZbEmRiXsa6APZXy27Yd8TPkIA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\renta.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionISR.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "retencionISR#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cibfkjt69x",
+      "Integrity": "BPh8fUyywkAo53EtzOe3MFbbg0vIO+RVIHYPf4vfpmY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\retencionISR.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionIVA.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "retencionIVA#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fkkwbbglj0",
+      "Integrity": "H2d1f6kTkWduOOODUFs++AWi0z2K1HwqzihTea4VHz8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\retencionIVA.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\subirPlanillas.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "subirPlanillas#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jm3kvtgran",
+      "Integrity": "WyJVIL3/R9t79UCC3tUWJZWB5UPh3g3W7WltjexY7co=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\subirPlanillas.html"
+    },
+    {
+      "Identity": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\tipos.html",
+      "SourceId": "SistemaGestionPagos.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaGestionPagos.Web",
+      "RelativePath": "tipos#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zvdutbq12o",
+      "Integrity": "z8q5VDL9viIzhwaTEazpjYcIZefmh7CfrVx7PDLYsl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\tipos.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "agua.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\y45aa4bzry-vhtdwpoi9w.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000224921278"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4445"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JZ4PzWON/kFpxrBioTcUmrFfsguF0bR/736BMF6T+NY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:36:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"k/pKyb+o/kEQXXkHw90yQ5UezEY7MdoQArsFrFIveLo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k/pKyb+o/kEQXXkHw90yQ5UezEY7MdoQArsFrFIveLo="
+        }
+      ]
+    },
+    {
+      "Route": "agua.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\agua.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k/pKyb+o/kEQXXkHw90yQ5UezEY7MdoQArsFrFIveLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:36:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k/pKyb+o/kEQXXkHw90yQ5UezEY7MdoQArsFrFIveLo="
+        }
+      ]
+    },
+    {
+      "Route": "agua.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\y45aa4bzry-vhtdwpoi9w.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JZ4PzWON/kFpxrBioTcUmrFfsguF0bR/736BMF6T+NY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:36:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JZ4PzWON/kFpxrBioTcUmrFfsguF0bR/736BMF6T+NY="
+        }
+      ]
+    },
+    {
+      "Route": "agua.vhtdwpoi9w.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\y45aa4bzry-vhtdwpoi9w.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000224921278"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4445"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JZ4PzWON/kFpxrBioTcUmrFfsguF0bR/736BMF6T+NY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:36:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"k/pKyb+o/kEQXXkHw90yQ5UezEY7MdoQArsFrFIveLo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhtdwpoi9w"
+        },
+        {
+          "Name": "label",
+          "Value": "agua.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k/pKyb+o/kEQXXkHw90yQ5UezEY7MdoQArsFrFIveLo="
+        }
+      ]
+    },
+    {
+      "Route": "agua.vhtdwpoi9w.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\agua.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k/pKyb+o/kEQXXkHw90yQ5UezEY7MdoQArsFrFIveLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:36:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhtdwpoi9w"
+        },
+        {
+          "Name": "label",
+          "Value": "agua.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k/pKyb+o/kEQXXkHw90yQ5UezEY7MdoQArsFrFIveLo="
+        }
+      ]
+    },
+    {
+      "Route": "agua.vhtdwpoi9w.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\y45aa4bzry-vhtdwpoi9w.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JZ4PzWON/kFpxrBioTcUmrFfsguF0bR/736BMF6T+NY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:36:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhtdwpoi9w"
+        },
+        {
+          "Name": "label",
+          "Value": "agua.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JZ4PzWON/kFpxrBioTcUmrFfsguF0bR/736BMF6T+NY="
+        }
+      ]
+    },
+    {
+      "Route": "basura.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\o6oy202o0d-muiq6ce2jy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000227221086"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4400"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"havCBI/jUKhnLExYtj75cNwvPq1LoKGrE3kJ1Vg3Hb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7rdGrSvQczV/av3NugXMq9jGWLBo4zULvI6B7lTUYDY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rdGrSvQczV/av3NugXMq9jGWLBo4zULvI6B7lTUYDY="
+        }
+      ]
+    },
+    {
+      "Route": "basura.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\basura.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rdGrSvQczV/av3NugXMq9jGWLBo4zULvI6B7lTUYDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rdGrSvQczV/av3NugXMq9jGWLBo4zULvI6B7lTUYDY="
+        }
+      ]
+    },
+    {
+      "Route": "basura.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\o6oy202o0d-muiq6ce2jy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"havCBI/jUKhnLExYtj75cNwvPq1LoKGrE3kJ1Vg3Hb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-havCBI/jUKhnLExYtj75cNwvPq1LoKGrE3kJ1Vg3Hb0="
+        }
+      ]
+    },
+    {
+      "Route": "basura.muiq6ce2jy.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\o6oy202o0d-muiq6ce2jy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000227221086"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4400"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"havCBI/jUKhnLExYtj75cNwvPq1LoKGrE3kJ1Vg3Hb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7rdGrSvQczV/av3NugXMq9jGWLBo4zULvI6B7lTUYDY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muiq6ce2jy"
+        },
+        {
+          "Name": "label",
+          "Value": "basura.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rdGrSvQczV/av3NugXMq9jGWLBo4zULvI6B7lTUYDY="
+        }
+      ]
+    },
+    {
+      "Route": "basura.muiq6ce2jy.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\basura.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rdGrSvQczV/av3NugXMq9jGWLBo4zULvI6B7lTUYDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muiq6ce2jy"
+        },
+        {
+          "Name": "label",
+          "Value": "basura.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rdGrSvQczV/av3NugXMq9jGWLBo4zULvI6B7lTUYDY="
+        }
+      ]
+    },
+    {
+      "Route": "basura.muiq6ce2jy.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\o6oy202o0d-muiq6ce2jy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"havCBI/jUKhnLExYtj75cNwvPq1LoKGrE3kJ1Vg3Hb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:23:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muiq6ce2jy"
+        },
+        {
+          "Name": "label",
+          "Value": "basura.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-havCBI/jUKhnLExYtj75cNwvPq1LoKGrE3kJ1Vg3Hb0="
+        }
+      ]
+    },
+    {
+      "Route": "igss.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\zczh2kl9d7-seocu1oiwa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000226398008"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4416"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmQQk4xJywZsfF7ojr3iflcrykH2Tp5/2WxCDNcyBaQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:34:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bHcZKK5PmFv3vRNEg1xzhHy142xI9fbmMCI3bhtrpPY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bHcZKK5PmFv3vRNEg1xzhHy142xI9fbmMCI3bhtrpPY="
+        }
+      ]
+    },
+    {
+      "Route": "igss.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\igss.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bHcZKK5PmFv3vRNEg1xzhHy142xI9fbmMCI3bhtrpPY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:34:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bHcZKK5PmFv3vRNEg1xzhHy142xI9fbmMCI3bhtrpPY="
+        }
+      ]
+    },
+    {
+      "Route": "igss.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\zczh2kl9d7-seocu1oiwa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmQQk4xJywZsfF7ojr3iflcrykH2Tp5/2WxCDNcyBaQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:34:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RmQQk4xJywZsfF7ojr3iflcrykH2Tp5/2WxCDNcyBaQ="
+        }
+      ]
+    },
+    {
+      "Route": "igss.seocu1oiwa.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\zczh2kl9d7-seocu1oiwa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000226398008"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4416"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmQQk4xJywZsfF7ojr3iflcrykH2Tp5/2WxCDNcyBaQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:34:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bHcZKK5PmFv3vRNEg1xzhHy142xI9fbmMCI3bhtrpPY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "seocu1oiwa"
+        },
+        {
+          "Name": "label",
+          "Value": "igss.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bHcZKK5PmFv3vRNEg1xzhHy142xI9fbmMCI3bhtrpPY="
+        }
+      ]
+    },
+    {
+      "Route": "igss.seocu1oiwa.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\igss.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bHcZKK5PmFv3vRNEg1xzhHy142xI9fbmMCI3bhtrpPY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:34:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "seocu1oiwa"
+        },
+        {
+          "Name": "label",
+          "Value": "igss.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bHcZKK5PmFv3vRNEg1xzhHy142xI9fbmMCI3bhtrpPY="
+        }
+      ]
+    },
+    {
+      "Route": "igss.seocu1oiwa.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\zczh2kl9d7-seocu1oiwa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmQQk4xJywZsfF7ojr3iflcrykH2Tp5/2WxCDNcyBaQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:34:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "seocu1oiwa"
+        },
+        {
+          "Name": "label",
+          "Value": "igss.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RmQQk4xJywZsfF7ojr3iflcrykH2Tp5/2WxCDNcyBaQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.0p6zbwl4zw.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\m9qj97022a-0p6zbwl4zw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000517330574"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1932"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HpoFwgv7IqKibCZhdxBYHYzhw8laOpHRq5SL9vdG9ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pMePn8XhY6UvzN2XyBRipmsXDm6ZfrU9uAOB6qr0Zdk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0p6zbwl4zw"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMePn8XhY6UvzN2XyBRipmsXDm6ZfrU9uAOB6qr0Zdk="
+        }
+      ]
+    },
+    {
+      "Route": "index.0p6zbwl4zw.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMePn8XhY6UvzN2XyBRipmsXDm6ZfrU9uAOB6qr0Zdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0p6zbwl4zw"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMePn8XhY6UvzN2XyBRipmsXDm6ZfrU9uAOB6qr0Zdk="
+        }
+      ]
+    },
+    {
+      "Route": "index.0p6zbwl4zw.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\m9qj97022a-0p6zbwl4zw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HpoFwgv7IqKibCZhdxBYHYzhw8laOpHRq5SL9vdG9ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0p6zbwl4zw"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HpoFwgv7IqKibCZhdxBYHYzhw8laOpHRq5SL9vdG9ek="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\m9qj97022a-0p6zbwl4zw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000517330574"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1932"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HpoFwgv7IqKibCZhdxBYHYzhw8laOpHRq5SL9vdG9ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pMePn8XhY6UvzN2XyBRipmsXDm6ZfrU9uAOB6qr0Zdk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMePn8XhY6UvzN2XyBRipmsXDm6ZfrU9uAOB6qr0Zdk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMePn8XhY6UvzN2XyBRipmsXDm6ZfrU9uAOB6qr0Zdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMePn8XhY6UvzN2XyBRipmsXDm6ZfrU9uAOB6qr0Zdk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\m9qj97022a-0p6zbwl4zw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HpoFwgv7IqKibCZhdxBYHYzhw8laOpHRq5SL9vdG9ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HpoFwgv7IqKibCZhdxBYHYzhw8laOpHRq5SL9vdG9ek="
+        }
+      ]
+    },
+    {
+      "Route": "layout.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0uw7w9ay02-oljagebzot.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000661813369"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1hYc5soVHFov1ppiTBCiD7sLdgHxP5yZczlXzyC6bkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 02:53:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vPm6P85cmzMHuRCzSjt5lMjsqykugwZLYfamX/it/VU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vPm6P85cmzMHuRCzSjt5lMjsqykugwZLYfamX/it/VU="
+        }
+      ]
+    },
+    {
+      "Route": "layout.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\layout.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vPm6P85cmzMHuRCzSjt5lMjsqykugwZLYfamX/it/VU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 02:53:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vPm6P85cmzMHuRCzSjt5lMjsqykugwZLYfamX/it/VU="
+        }
+      ]
+    },
+    {
+      "Route": "layout.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0uw7w9ay02-oljagebzot.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1hYc5soVHFov1ppiTBCiD7sLdgHxP5yZczlXzyC6bkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 02:53:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1hYc5soVHFov1ppiTBCiD7sLdgHxP5yZczlXzyC6bkg="
+        }
+      ]
+    },
+    {
+      "Route": "layout.oljagebzot.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0uw7w9ay02-oljagebzot.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000661813369"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1hYc5soVHFov1ppiTBCiD7sLdgHxP5yZczlXzyC6bkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 02:53:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vPm6P85cmzMHuRCzSjt5lMjsqykugwZLYfamX/it/VU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oljagebzot"
+        },
+        {
+          "Name": "label",
+          "Value": "layout.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vPm6P85cmzMHuRCzSjt5lMjsqykugwZLYfamX/it/VU="
+        }
+      ]
+    },
+    {
+      "Route": "layout.oljagebzot.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\layout.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vPm6P85cmzMHuRCzSjt5lMjsqykugwZLYfamX/it/VU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 02:53:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oljagebzot"
+        },
+        {
+          "Name": "label",
+          "Value": "layout.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vPm6P85cmzMHuRCzSjt5lMjsqykugwZLYfamX/it/VU="
+        }
+      ]
+    },
+    {
+      "Route": "layout.oljagebzot.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0uw7w9ay02-oljagebzot.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1hYc5soVHFov1ppiTBCiD7sLdgHxP5yZczlXzyC6bkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 02:53:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oljagebzot"
+        },
+        {
+          "Name": "label",
+          "Value": "layout.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1hYc5soVHFov1ppiTBCiD7sLdgHxP5yZczlXzyC6bkg="
+        }
+      ]
+    },
+    {
+      "Route": "login.4k38eqv5e4.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\yl2zlaivit-4k38eqv5e4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000995024876"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1004"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Omz+fewJCWAJymgNqCif53vWYKxKkeBeN1mJMkQaXJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 00:50:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/JVWylRx+mCOsmJgjKJUzXbNDmse3iRZdS2vxOH+Ztw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4k38eqv5e4"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JVWylRx+mCOsmJgjKJUzXbNDmse3iRZdS2vxOH+Ztw="
+        }
+      ]
+    },
+    {
+      "Route": "login.4k38eqv5e4.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JVWylRx+mCOsmJgjKJUzXbNDmse3iRZdS2vxOH+Ztw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 00:50:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4k38eqv5e4"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JVWylRx+mCOsmJgjKJUzXbNDmse3iRZdS2vxOH+Ztw="
+        }
+      ]
+    },
+    {
+      "Route": "login.4k38eqv5e4.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\yl2zlaivit-4k38eqv5e4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Omz+fewJCWAJymgNqCif53vWYKxKkeBeN1mJMkQaXJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 00:50:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4k38eqv5e4"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Omz+fewJCWAJymgNqCif53vWYKxKkeBeN1mJMkQaXJ4="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\yl2zlaivit-4k38eqv5e4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000995024876"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1004"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Omz+fewJCWAJymgNqCif53vWYKxKkeBeN1mJMkQaXJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 00:50:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/JVWylRx+mCOsmJgjKJUzXbNDmse3iRZdS2vxOH+Ztw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JVWylRx+mCOsmJgjKJUzXbNDmse3iRZdS2vxOH+Ztw="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JVWylRx+mCOsmJgjKJUzXbNDmse3iRZdS2vxOH+Ztw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 00:50:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JVWylRx+mCOsmJgjKJUzXbNDmse3iRZdS2vxOH+Ztw="
+        }
+      ]
+    },
+    {
+      "Route": "login.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\yl2zlaivit-4k38eqv5e4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Omz+fewJCWAJymgNqCif53vWYKxKkeBeN1mJMkQaXJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 00:50:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Omz+fewJCWAJymgNqCif53vWYKxKkeBeN1mJMkQaXJ4="
+        }
+      ]
+    },
+    {
+      "Route": "menu.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\j2x227jb8t-xgx7rxz947.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001742160279"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "573"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AeKRoKTy5hFufkdtrvZk627jj4VebRdLJxIP7bE/js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 03:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z8snQysYDOvdKW1R1sdOdNhzgB59v8yIdvTN7t2W4FY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8snQysYDOvdKW1R1sdOdNhzgB59v8yIdvTN7t2W4FY="
+        }
+      ]
+    },
+    {
+      "Route": "menu.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\menu.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8snQysYDOvdKW1R1sdOdNhzgB59v8yIdvTN7t2W4FY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 03:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8snQysYDOvdKW1R1sdOdNhzgB59v8yIdvTN7t2W4FY="
+        }
+      ]
+    },
+    {
+      "Route": "menu.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\j2x227jb8t-xgx7rxz947.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AeKRoKTy5hFufkdtrvZk627jj4VebRdLJxIP7bE/js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 03:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0AeKRoKTy5hFufkdtrvZk627jj4VebRdLJxIP7bE/js="
+        }
+      ]
+    },
+    {
+      "Route": "menu.xgx7rxz947.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\j2x227jb8t-xgx7rxz947.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001742160279"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "573"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AeKRoKTy5hFufkdtrvZk627jj4VebRdLJxIP7bE/js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 03:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z8snQysYDOvdKW1R1sdOdNhzgB59v8yIdvTN7t2W4FY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xgx7rxz947"
+        },
+        {
+          "Name": "label",
+          "Value": "menu.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8snQysYDOvdKW1R1sdOdNhzgB59v8yIdvTN7t2W4FY="
+        }
+      ]
+    },
+    {
+      "Route": "menu.xgx7rxz947.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\menu.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8snQysYDOvdKW1R1sdOdNhzgB59v8yIdvTN7t2W4FY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 03:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xgx7rxz947"
+        },
+        {
+          "Name": "label",
+          "Value": "menu.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8snQysYDOvdKW1R1sdOdNhzgB59v8yIdvTN7t2W4FY="
+        }
+      ]
+    },
+    {
+      "Route": "menu.xgx7rxz947.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\j2x227jb8t-xgx7rxz947.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0AeKRoKTy5hFufkdtrvZk627jj4VebRdLJxIP7bE/js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 03:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xgx7rxz947"
+        },
+        {
+          "Name": "label",
+          "Value": "menu.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0AeKRoKTy5hFufkdtrvZk627jj4VebRdLJxIP7bE/js="
+        }
+      ]
+    },
+    {
+      "Route": "pagos.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\uzbzt6durg-xgj7vn5zwp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000366032211"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2731"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0Robz0z2c/fED/Qs8YWJ2wHBjc18v7zAteJcJvRE8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 01:51:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"r1YJArfb1Q2y2HLgb8TQYmspT4fOHQA5V1KVTi3KksU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r1YJArfb1Q2y2HLgb8TQYmspT4fOHQA5V1KVTi3KksU="
+        }
+      ]
+    },
+    {
+      "Route": "pagos.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\pagos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r1YJArfb1Q2y2HLgb8TQYmspT4fOHQA5V1KVTi3KksU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 01:51:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r1YJArfb1Q2y2HLgb8TQYmspT4fOHQA5V1KVTi3KksU="
+        }
+      ]
+    },
+    {
+      "Route": "pagos.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\uzbzt6durg-xgj7vn5zwp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0Robz0z2c/fED/Qs8YWJ2wHBjc18v7zAteJcJvRE8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 01:51:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0Robz0z2c/fED/Qs8YWJ2wHBjc18v7zAteJcJvRE8I="
+        }
+      ]
+    },
+    {
+      "Route": "pagos.xgj7vn5zwp.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\uzbzt6durg-xgj7vn5zwp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000366032211"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2731"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0Robz0z2c/fED/Qs8YWJ2wHBjc18v7zAteJcJvRE8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 01:51:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"r1YJArfb1Q2y2HLgb8TQYmspT4fOHQA5V1KVTi3KksU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xgj7vn5zwp"
+        },
+        {
+          "Name": "label",
+          "Value": "pagos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r1YJArfb1Q2y2HLgb8TQYmspT4fOHQA5V1KVTi3KksU="
+        }
+      ]
+    },
+    {
+      "Route": "pagos.xgj7vn5zwp.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\pagos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r1YJArfb1Q2y2HLgb8TQYmspT4fOHQA5V1KVTi3KksU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 01:51:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xgj7vn5zwp"
+        },
+        {
+          "Name": "label",
+          "Value": "pagos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r1YJArfb1Q2y2HLgb8TQYmspT4fOHQA5V1KVTi3KksU="
+        }
+      ]
+    },
+    {
+      "Route": "pagos.xgj7vn5zwp.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\uzbzt6durg-xgj7vn5zwp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0Robz0z2c/fED/Qs8YWJ2wHBjc18v7zAteJcJvRE8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 01:51:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xgj7vn5zwp"
+        },
+        {
+          "Name": "label",
+          "Value": "pagos.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0Robz0z2c/fED/Qs8YWJ2wHBjc18v7zAteJcJvRE8I="
+        }
+      ]
+    },
+    {
+      "Route": "planillaLuisRoca.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\7j3e3h2ukt-zb4mezbigr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232288037"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4304"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mZGyFw5g527ibM2JbPXBA80AhCV6jo4JyMVyHOqfdFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"byld5jqvjel4+j4ZwvSNDvC/kT9Do2bR89GIx/aBWV0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-byld5jqvjel4+j4ZwvSNDvC/kT9Do2bR89GIx/aBWV0="
+        }
+      ]
+    },
+    {
+      "Route": "planillaLuisRoca.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaLuisRoca.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16373"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"byld5jqvjel4+j4ZwvSNDvC/kT9Do2bR89GIx/aBWV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-byld5jqvjel4+j4ZwvSNDvC/kT9Do2bR89GIx/aBWV0="
+        }
+      ]
+    },
+    {
+      "Route": "planillaLuisRoca.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\7j3e3h2ukt-zb4mezbigr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mZGyFw5g527ibM2JbPXBA80AhCV6jo4JyMVyHOqfdFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mZGyFw5g527ibM2JbPXBA80AhCV6jo4JyMVyHOqfdFE="
+        }
+      ]
+    },
+    {
+      "Route": "planillaLuisRoca.zb4mezbigr.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\7j3e3h2ukt-zb4mezbigr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232288037"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4304"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mZGyFw5g527ibM2JbPXBA80AhCV6jo4JyMVyHOqfdFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"byld5jqvjel4+j4ZwvSNDvC/kT9Do2bR89GIx/aBWV0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zb4mezbigr"
+        },
+        {
+          "Name": "label",
+          "Value": "planillaLuisRoca.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-byld5jqvjel4+j4ZwvSNDvC/kT9Do2bR89GIx/aBWV0="
+        }
+      ]
+    },
+    {
+      "Route": "planillaLuisRoca.zb4mezbigr.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaLuisRoca.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16373"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"byld5jqvjel4+j4ZwvSNDvC/kT9Do2bR89GIx/aBWV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zb4mezbigr"
+        },
+        {
+          "Name": "label",
+          "Value": "planillaLuisRoca.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-byld5jqvjel4+j4ZwvSNDvC/kT9Do2bR89GIx/aBWV0="
+        }
+      ]
+    },
+    {
+      "Route": "planillaLuisRoca.zb4mezbigr.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\7j3e3h2ukt-zb4mezbigr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mZGyFw5g527ibM2JbPXBA80AhCV6jo4JyMVyHOqfdFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zb4mezbigr"
+        },
+        {
+          "Name": "label",
+          "Value": "planillaLuisRoca.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mZGyFw5g527ibM2JbPXBA80AhCV6jo4JyMVyHOqfdFE="
+        }
+      ]
+    },
+    {
+      "Route": "planillaProyecto.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\9nsiu70di5-kpi6oo8buz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000227117874"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4402"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x/LLdq6QHmcVNAPf6E2Xbrq1gMJxLExkGOPPbFTWKGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OFxaZakmTPAfMBwmji8X0wXYSiOd60I7gkBlGA6v5+c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OFxaZakmTPAfMBwmji8X0wXYSiOd60I7gkBlGA6v5+c="
+        }
+      ]
+    },
+    {
+      "Route": "planillaProyecto.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaProyecto.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OFxaZakmTPAfMBwmji8X0wXYSiOd60I7gkBlGA6v5+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OFxaZakmTPAfMBwmji8X0wXYSiOd60I7gkBlGA6v5+c="
+        }
+      ]
+    },
+    {
+      "Route": "planillaProyecto.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\9nsiu70di5-kpi6oo8buz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x/LLdq6QHmcVNAPf6E2Xbrq1gMJxLExkGOPPbFTWKGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x/LLdq6QHmcVNAPf6E2Xbrq1gMJxLExkGOPPbFTWKGU="
+        }
+      ]
+    },
+    {
+      "Route": "planillaProyecto.kpi6oo8buz.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\9nsiu70di5-kpi6oo8buz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000227117874"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4402"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x/LLdq6QHmcVNAPf6E2Xbrq1gMJxLExkGOPPbFTWKGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OFxaZakmTPAfMBwmji8X0wXYSiOd60I7gkBlGA6v5+c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kpi6oo8buz"
+        },
+        {
+          "Name": "label",
+          "Value": "planillaProyecto.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OFxaZakmTPAfMBwmji8X0wXYSiOd60I7gkBlGA6v5+c="
+        }
+      ]
+    },
+    {
+      "Route": "planillaProyecto.kpi6oo8buz.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\planillaProyecto.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OFxaZakmTPAfMBwmji8X0wXYSiOd60I7gkBlGA6v5+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kpi6oo8buz"
+        },
+        {
+          "Name": "label",
+          "Value": "planillaProyecto.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OFxaZakmTPAfMBwmji8X0wXYSiOd60I7gkBlGA6v5+c="
+        }
+      ]
+    },
+    {
+      "Route": "planillaProyecto.kpi6oo8buz.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\9nsiu70di5-kpi6oo8buz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x/LLdq6QHmcVNAPf6E2Xbrq1gMJxLExkGOPPbFTWKGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kpi6oo8buz"
+        },
+        {
+          "Name": "label",
+          "Value": "planillaProyecto.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x/LLdq6QHmcVNAPf6E2Xbrq1gMJxLExkGOPPbFTWKGU="
+        }
+      ]
+    },
+    {
+      "Route": "proyectoDetalle.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\lrpoidw8yg-iedd43v8hh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000208594076"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4793"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nqlo5QK7qMn8clnglwWFPL44yXT+gIvXfcCfvZjz+S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 02:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5homSu38k3X+h9lTDl1Qwn5gqQxO/uILchd3fdnZN9w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5homSu38k3X+h9lTDl1Qwn5gqQxO/uILchd3fdnZN9w="
+        }
+      ]
+    },
+    {
+      "Route": "proyectoDetalle.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectoDetalle.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5homSu38k3X+h9lTDl1Qwn5gqQxO/uILchd3fdnZN9w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 02:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5homSu38k3X+h9lTDl1Qwn5gqQxO/uILchd3fdnZN9w="
+        }
+      ]
+    },
+    {
+      "Route": "proyectoDetalle.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\lrpoidw8yg-iedd43v8hh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nqlo5QK7qMn8clnglwWFPL44yXT+gIvXfcCfvZjz+S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 02:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nqlo5QK7qMn8clnglwWFPL44yXT+gIvXfcCfvZjz+S4="
+        }
+      ]
+    },
+    {
+      "Route": "proyectoDetalle.iedd43v8hh.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\lrpoidw8yg-iedd43v8hh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000208594076"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4793"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nqlo5QK7qMn8clnglwWFPL44yXT+gIvXfcCfvZjz+S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 02:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5homSu38k3X+h9lTDl1Qwn5gqQxO/uILchd3fdnZN9w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iedd43v8hh"
+        },
+        {
+          "Name": "label",
+          "Value": "proyectoDetalle.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5homSu38k3X+h9lTDl1Qwn5gqQxO/uILchd3fdnZN9w="
+        }
+      ]
+    },
+    {
+      "Route": "proyectoDetalle.iedd43v8hh.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectoDetalle.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5homSu38k3X+h9lTDl1Qwn5gqQxO/uILchd3fdnZN9w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 02:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iedd43v8hh"
+        },
+        {
+          "Name": "label",
+          "Value": "proyectoDetalle.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5homSu38k3X+h9lTDl1Qwn5gqQxO/uILchd3fdnZN9w="
+        }
+      ]
+    },
+    {
+      "Route": "proyectoDetalle.iedd43v8hh.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\lrpoidw8yg-iedd43v8hh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nqlo5QK7qMn8clnglwWFPL44yXT+gIvXfcCfvZjz+S4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 02:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iedd43v8hh"
+        },
+        {
+          "Name": "label",
+          "Value": "proyectoDetalle.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nqlo5QK7qMn8clnglwWFPL44yXT+gIvXfcCfvZjz+S4="
+        }
+      ]
+    },
+    {
+      "Route": "proyectos.4n5r6t2dtk.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\d2ucq239rd-4n5r6t2dtk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000276395799"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3617"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gtwUo2FdvNP6lgGiUDV0KoajCxj7SDZqAQCoAZyKNY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UA9Wz1qk1mV/1P2fUCbWTBbV+YwimYVWt4qznSKbQeE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4n5r6t2dtk"
+        },
+        {
+          "Name": "label",
+          "Value": "proyectos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UA9Wz1qk1mV/1P2fUCbWTBbV+YwimYVWt4qznSKbQeE="
+        }
+      ]
+    },
+    {
+      "Route": "proyectos.4n5r6t2dtk.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12954"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UA9Wz1qk1mV/1P2fUCbWTBbV+YwimYVWt4qznSKbQeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4n5r6t2dtk"
+        },
+        {
+          "Name": "label",
+          "Value": "proyectos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UA9Wz1qk1mV/1P2fUCbWTBbV+YwimYVWt4qznSKbQeE="
+        }
+      ]
+    },
+    {
+      "Route": "proyectos.4n5r6t2dtk.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\d2ucq239rd-4n5r6t2dtk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gtwUo2FdvNP6lgGiUDV0KoajCxj7SDZqAQCoAZyKNY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4n5r6t2dtk"
+        },
+        {
+          "Name": "label",
+          "Value": "proyectos.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gtwUo2FdvNP6lgGiUDV0KoajCxj7SDZqAQCoAZyKNY0="
+        }
+      ]
+    },
+    {
+      "Route": "proyectos.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\d2ucq239rd-4n5r6t2dtk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000276395799"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3617"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gtwUo2FdvNP6lgGiUDV0KoajCxj7SDZqAQCoAZyKNY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UA9Wz1qk1mV/1P2fUCbWTBbV+YwimYVWt4qznSKbQeE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UA9Wz1qk1mV/1P2fUCbWTBbV+YwimYVWt4qznSKbQeE="
+        }
+      ]
+    },
+    {
+      "Route": "proyectos.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\proyectos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12954"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UA9Wz1qk1mV/1P2fUCbWTBbV+YwimYVWt4qznSKbQeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UA9Wz1qk1mV/1P2fUCbWTBbV+YwimYVWt4qznSKbQeE="
+        }
+      ]
+    },
+    {
+      "Route": "proyectos.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\d2ucq239rd-4n5r6t2dtk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gtwUo2FdvNP6lgGiUDV0KoajCxj7SDZqAQCoAZyKNY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gtwUo2FdvNP6lgGiUDV0KoajCxj7SDZqAQCoAZyKNY0="
+        }
+      ]
+    },
+    {
+      "Route": "renta.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kmz2klt2rn-z65gl278py.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000224215247"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4459"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4GKtSYoChSzeaOyCrFnOWjMrfjiAJIQs7YJO5OxslI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S2vHaKGT4Rcd1tlSARZbEmRiXsa6APZXy27Yd8TPkIA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2vHaKGT4Rcd1tlSARZbEmRiXsa6APZXy27Yd8TPkIA="
+        }
+      ]
+    },
+    {
+      "Route": "renta.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\renta.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2vHaKGT4Rcd1tlSARZbEmRiXsa6APZXy27Yd8TPkIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2vHaKGT4Rcd1tlSARZbEmRiXsa6APZXy27Yd8TPkIA="
+        }
+      ]
+    },
+    {
+      "Route": "renta.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kmz2klt2rn-z65gl278py.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4GKtSYoChSzeaOyCrFnOWjMrfjiAJIQs7YJO5OxslI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4GKtSYoChSzeaOyCrFnOWjMrfjiAJIQs7YJO5OxslI="
+        }
+      ]
+    },
+    {
+      "Route": "renta.z65gl278py.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kmz2klt2rn-z65gl278py.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000224215247"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4459"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4GKtSYoChSzeaOyCrFnOWjMrfjiAJIQs7YJO5OxslI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S2vHaKGT4Rcd1tlSARZbEmRiXsa6APZXy27Yd8TPkIA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z65gl278py"
+        },
+        {
+          "Name": "label",
+          "Value": "renta.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2vHaKGT4Rcd1tlSARZbEmRiXsa6APZXy27Yd8TPkIA="
+        }
+      ]
+    },
+    {
+      "Route": "renta.z65gl278py.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\renta.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2vHaKGT4Rcd1tlSARZbEmRiXsa6APZXy27Yd8TPkIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z65gl278py"
+        },
+        {
+          "Name": "label",
+          "Value": "renta.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2vHaKGT4Rcd1tlSARZbEmRiXsa6APZXy27Yd8TPkIA="
+        }
+      ]
+    },
+    {
+      "Route": "renta.z65gl278py.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kmz2klt2rn-z65gl278py.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4GKtSYoChSzeaOyCrFnOWjMrfjiAJIQs7YJO5OxslI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z65gl278py"
+        },
+        {
+          "Name": "label",
+          "Value": "renta.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4GKtSYoChSzeaOyCrFnOWjMrfjiAJIQs7YJO5OxslI="
+        }
+      ]
+    },
+    {
+      "Route": "retencionISR.cibfkjt69x.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\vpiek1gtk5-cibfkjt69x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232288037"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4304"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N0iZzeBIxUi0Iix27GgranLGrU/9t75tBjeClV7qPnc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BPh8fUyywkAo53EtzOe3MFbbg0vIO+RVIHYPf4vfpmY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cibfkjt69x"
+        },
+        {
+          "Name": "label",
+          "Value": "retencionISR.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BPh8fUyywkAo53EtzOe3MFbbg0vIO+RVIHYPf4vfpmY="
+        }
+      ]
+    },
+    {
+      "Route": "retencionISR.cibfkjt69x.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionISR.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BPh8fUyywkAo53EtzOe3MFbbg0vIO+RVIHYPf4vfpmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cibfkjt69x"
+        },
+        {
+          "Name": "label",
+          "Value": "retencionISR.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BPh8fUyywkAo53EtzOe3MFbbg0vIO+RVIHYPf4vfpmY="
+        }
+      ]
+    },
+    {
+      "Route": "retencionISR.cibfkjt69x.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\vpiek1gtk5-cibfkjt69x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N0iZzeBIxUi0Iix27GgranLGrU/9t75tBjeClV7qPnc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cibfkjt69x"
+        },
+        {
+          "Name": "label",
+          "Value": "retencionISR.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N0iZzeBIxUi0Iix27GgranLGrU/9t75tBjeClV7qPnc="
+        }
+      ]
+    },
+    {
+      "Route": "retencionISR.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\vpiek1gtk5-cibfkjt69x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000232288037"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4304"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N0iZzeBIxUi0Iix27GgranLGrU/9t75tBjeClV7qPnc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BPh8fUyywkAo53EtzOe3MFbbg0vIO+RVIHYPf4vfpmY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BPh8fUyywkAo53EtzOe3MFbbg0vIO+RVIHYPf4vfpmY="
+        }
+      ]
+    },
+    {
+      "Route": "retencionISR.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionISR.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BPh8fUyywkAo53EtzOe3MFbbg0vIO+RVIHYPf4vfpmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BPh8fUyywkAo53EtzOe3MFbbg0vIO+RVIHYPf4vfpmY="
+        }
+      ]
+    },
+    {
+      "Route": "retencionISR.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\vpiek1gtk5-cibfkjt69x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N0iZzeBIxUi0Iix27GgranLGrU/9t75tBjeClV7qPnc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N0iZzeBIxUi0Iix27GgranLGrU/9t75tBjeClV7qPnc="
+        }
+      ]
+    },
+    {
+      "Route": "retencionIVA.fkkwbbglj0.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0wfuf3k1gx-fkkwbbglj0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000223563604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4472"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QT8biHP4D3NbsJFZWxm2xOgOP6YIA3yNQzd39qyZDck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"H2d1f6kTkWduOOODUFs++AWi0z2K1HwqzihTea4VHz8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkkwbbglj0"
+        },
+        {
+          "Name": "label",
+          "Value": "retencionIVA.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H2d1f6kTkWduOOODUFs++AWi0z2K1HwqzihTea4VHz8="
+        }
+      ]
+    },
+    {
+      "Route": "retencionIVA.fkkwbbglj0.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionIVA.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H2d1f6kTkWduOOODUFs++AWi0z2K1HwqzihTea4VHz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkkwbbglj0"
+        },
+        {
+          "Name": "label",
+          "Value": "retencionIVA.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H2d1f6kTkWduOOODUFs++AWi0z2K1HwqzihTea4VHz8="
+        }
+      ]
+    },
+    {
+      "Route": "retencionIVA.fkkwbbglj0.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0wfuf3k1gx-fkkwbbglj0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QT8biHP4D3NbsJFZWxm2xOgOP6YIA3yNQzd39qyZDck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkkwbbglj0"
+        },
+        {
+          "Name": "label",
+          "Value": "retencionIVA.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QT8biHP4D3NbsJFZWxm2xOgOP6YIA3yNQzd39qyZDck="
+        }
+      ]
+    },
+    {
+      "Route": "retencionIVA.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0wfuf3k1gx-fkkwbbglj0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000223563604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4472"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QT8biHP4D3NbsJFZWxm2xOgOP6YIA3yNQzd39qyZDck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"H2d1f6kTkWduOOODUFs++AWi0z2K1HwqzihTea4VHz8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H2d1f6kTkWduOOODUFs++AWi0z2K1HwqzihTea4VHz8="
+        }
+      ]
+    },
+    {
+      "Route": "retencionIVA.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\retencionIVA.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H2d1f6kTkWduOOODUFs++AWi0z2K1HwqzihTea4VHz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H2d1f6kTkWduOOODUFs++AWi0z2K1HwqzihTea4VHz8="
+        }
+      ]
+    },
+    {
+      "Route": "retencionIVA.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\0wfuf3k1gx-fkkwbbglj0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QT8biHP4D3NbsJFZWxm2xOgOP6YIA3yNQzd39qyZDck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Aug 2025 01:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QT8biHP4D3NbsJFZWxm2xOgOP6YIA3yNQzd39qyZDck="
+        }
+      ]
+    },
+    {
+      "Route": "subirPlanillas.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kve2i0n75r-jm3kvtgran.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000407996736"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2450"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rPhI09XvxZNVuXT8Vymr/LI7trOT9hB3i2drjtZD1U4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 04:10:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WyJVIL3/R9t79UCC3tUWJZWB5UPh3g3W7WltjexY7co=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WyJVIL3/R9t79UCC3tUWJZWB5UPh3g3W7WltjexY7co="
+        }
+      ]
+    },
+    {
+      "Route": "subirPlanillas.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\subirPlanillas.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WyJVIL3/R9t79UCC3tUWJZWB5UPh3g3W7WltjexY7co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 04:10:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WyJVIL3/R9t79UCC3tUWJZWB5UPh3g3W7WltjexY7co="
+        }
+      ]
+    },
+    {
+      "Route": "subirPlanillas.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kve2i0n75r-jm3kvtgran.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rPhI09XvxZNVuXT8Vymr/LI7trOT9hB3i2drjtZD1U4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 04:10:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rPhI09XvxZNVuXT8Vymr/LI7trOT9hB3i2drjtZD1U4="
+        }
+      ]
+    },
+    {
+      "Route": "subirPlanillas.jm3kvtgran.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kve2i0n75r-jm3kvtgran.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000407996736"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2450"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rPhI09XvxZNVuXT8Vymr/LI7trOT9hB3i2drjtZD1U4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 04:10:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WyJVIL3/R9t79UCC3tUWJZWB5UPh3g3W7WltjexY7co=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jm3kvtgran"
+        },
+        {
+          "Name": "label",
+          "Value": "subirPlanillas.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WyJVIL3/R9t79UCC3tUWJZWB5UPh3g3W7WltjexY7co="
+        }
+      ]
+    },
+    {
+      "Route": "subirPlanillas.jm3kvtgran.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\subirPlanillas.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WyJVIL3/R9t79UCC3tUWJZWB5UPh3g3W7WltjexY7co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 04:10:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jm3kvtgran"
+        },
+        {
+          "Name": "label",
+          "Value": "subirPlanillas.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WyJVIL3/R9t79UCC3tUWJZWB5UPh3g3W7WltjexY7co="
+        }
+      ]
+    },
+    {
+      "Route": "subirPlanillas.jm3kvtgran.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\kve2i0n75r-jm3kvtgran.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rPhI09XvxZNVuXT8Vymr/LI7trOT9hB3i2drjtZD1U4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 04:10:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jm3kvtgran"
+        },
+        {
+          "Name": "label",
+          "Value": "subirPlanillas.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rPhI09XvxZNVuXT8Vymr/LI7trOT9hB3i2drjtZD1U4="
+        }
+      ]
+    },
+    {
+      "Route": "tipos.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\z8r28o9txw-zvdutbq12o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000510464523"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1958"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBh9U73CWQM863tGome8WWWBqD6893G/M/4S0Poxp70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z8q5VDL9viIzhwaTEazpjYcIZefmh7CfrVx7PDLYsl4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8q5VDL9viIzhwaTEazpjYcIZefmh7CfrVx7PDLYsl4="
+        }
+      ]
+    },
+    {
+      "Route": "tipos.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\tipos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8q5VDL9viIzhwaTEazpjYcIZefmh7CfrVx7PDLYsl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8q5VDL9viIzhwaTEazpjYcIZefmh7CfrVx7PDLYsl4="
+        }
+      ]
+    },
+    {
+      "Route": "tipos.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\z8r28o9txw-zvdutbq12o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBh9U73CWQM863tGome8WWWBqD6893G/M/4S0Poxp70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OBh9U73CWQM863tGome8WWWBqD6893G/M/4S0Poxp70="
+        }
+      ]
+    },
+    {
+      "Route": "tipos.zvdutbq12o.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\z8r28o9txw-zvdutbq12o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000510464523"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1958"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBh9U73CWQM863tGome8WWWBqD6893G/M/4S0Poxp70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z8q5VDL9viIzhwaTEazpjYcIZefmh7CfrVx7PDLYsl4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zvdutbq12o"
+        },
+        {
+          "Name": "label",
+          "Value": "tipos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8q5VDL9viIzhwaTEazpjYcIZefmh7CfrVx7PDLYsl4="
+        }
+      ]
+    },
+    {
+      "Route": "tipos.zvdutbq12o.html",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\wwwroot\\tipos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8q5VDL9viIzhwaTEazpjYcIZefmh7CfrVx7PDLYsl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zvdutbq12o"
+        },
+        {
+          "Name": "label",
+          "Value": "tipos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8q5VDL9viIzhwaTEazpjYcIZefmh7CfrVx7PDLYsl4="
+        }
+      ]
+    },
+    {
+      "Route": "tipos.zvdutbq12o.html.gz",
+      "AssetFile": "C:\\Users\\rustr\\SistemaGestionPagos\\SistemaGestionPagos.Web\\obj\\Debug\\net9.0\\compressed\\z8r28o9txw-zvdutbq12o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OBh9U73CWQM863tGome8WWWBqD6893G/M/4S0Poxp70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zvdutbq12o"
+        },
+        {
+          "Name": "label",
+          "Value": "tipos.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OBh9U73CWQM863tGome8WWWBqD6893G/M/4S0Poxp70="
+        }
+      ]
+    }
+  ]
+}

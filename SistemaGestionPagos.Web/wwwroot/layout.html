@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Sistema de Pagos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #e6f0f8;
+        }
+
+        .wrapper {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 240px;
+            background-color: #1e3a5f;
+            color: white;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            z-index: 1050;
+        }
+
+        .sidebar.show {
+            transform: translateX(0);
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 14px 20px;
+            color: #cfe6ff;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .sidebar a:hover,
+        .sidebar a.active {
+            background-color: #3f5f87;
+            color: #ffffff;
+        }
+
+        .sidebar .user {
+            padding: 1rem 20px;
+            font-weight: bold;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 1.5rem;
+            overflow-y: auto;
+            background-color: #dbeaf7;
+            margin-left: 0;
+            transition: margin-left 0.3s ease;
+        }
+
+        .content.shifted {
+            margin-left: 240px;
+        }
+
+        .toggle-btn {
+            background-color: transparent;
+            border: none;
+            font-size: 24px;
+            color: #1e3a5f;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #ffffff;
+            padding: 0.75rem 1.25rem;
+            border-bottom: 2px solid #c0d3e8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="user" id="usuarioNombre"><i class="fas fa-user me-2"></i> Usuario</div>
+        <a href="index.html"><i class="fas fa-bars me-2"></i> Menú Principal</a>
+        <a href="retencionIVA.html" class="active"><i class="fas fa-file-invoice-dollar me-2"></i> Retención IVA</a>
+        <a href="#" onclick="cerrarSesion()"><i class="fas fa-sign-out-alt me-2"></i> Cerrar sesión</a>
+    </div>
+
+    <div class="wrapper">
+        <div class="content" id="mainContent">
+            <div class="navbar">
+                <button class="toggle-btn me-3" onclick="toggleSidebar()"><i class="fas fa-bars"></i></button>
+                <h5 class="mb-0 text-primary" id="tituloModulo">Cargando...</h5>
+            </div>
+            <div id="contenidoModulo"></div>
+        </div>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("show");
+            document.getElementById("mainContent").classList.toggle("shifted");
+        }
+
+        function cerrarSesion() {
+            localStorage.removeItem("usuario");
+            window.location.href = "login.html";
+        }
+
+        try {
+            const usuario = JSON.parse(localStorage.getItem("usuario"));
+            if (!usuario || (!usuario.username && !usuario.nombre)) throw new Error("No logueado");
+            const nombreUsuario = usuario.nombre || usuario.username || "Usuario";
+            document.getElementById("usuarioNombre").innerHTML = `<i class="fas fa-user me-2"></i> ${nombreUsuario}`;
+        } catch {
+            localStorage.removeItem("usuario");
+            window.location.href = "login.html";
+        }
+
+        const modulo = "retencionIVA"; // Este valor puede cambiar según el archivo
+        document.getElementById("tituloModulo").innerText = "Retención IVA";
+
+        fetch(`contenido-${modulo}.html`)
+            .then(res => res.text())
+            .then(html => {
+                document.getElementById("contenidoModulo").innerHTML = html;
+            });
+    </script>
+</body>
+
+</html>

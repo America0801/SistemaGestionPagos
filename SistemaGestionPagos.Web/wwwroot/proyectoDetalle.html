@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle del Proyecto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #e6f0f8
+        }
+
+        .wrapper {
+            display: flex;
+            height: 100vh;
+            overflow: hidden
+        }
+
+        .sidebar {
+            width: 240px;
+            background: #1e3a5f;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            transform: translateX(-100%);
+            transition: transform .3s ease;
+            z-index: 1050
+        }
+
+        .sidebar.show {
+            transform: translateX(0)
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 14px 20px;
+            color: #cfe6ff;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(255, 255, 255, .1)
+        }
+
+        .sidebar a:hover,
+        .sidebar a.active {
+            background: #3f5f87;
+            color: #fff
+        }
+
+        .sidebar .user {
+            padding: 1rem 20px;
+            font-weight: bold;
+            border-bottom: 1px solid rgba(255, 255, 255, .1)
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 1.5rem;
+            overflow-y: auto;
+            background: #dbeaf7;
+            margin-left: 0;
+            transition: margin-left .3s ease
+        }
+
+        .content.shifted {
+            margin-left: 240px
+        }
+
+        .toggle-btn {
+            background: transparent;
+            border: none;
+            font-size: 24px;
+            color: #1e3a5f
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background: #fff;
+            padding: .75rem 1.25rem;
+            border-bottom: 2px solid #c0d3e8
+        }
+
+        .card-custom {
+            background: #fff;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .1)
+        }
+
+        .badge-soft {
+            padding: .4rem .6rem;
+            border-radius: .5rem
+        }
+
+        .badge-activo {
+            background: #e6f4ea;
+            color: #1e7e34
+        }
+
+        .badge-finalizado {
+            background: #f3e7e9;
+            color: #c1121f
+        }
+
+        .table td,
+        .table th {
+            vertical-align: middle
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- SIDENAV -->
+    <div class="sidebar" id="sidebar">
+        <div class="user" id="usuarioNombre"><i class="fas fa-user me-2"></i> Usuario</div>
+        <a href="index.html"><i class="fas fa-bars me-2"></i> Menú Principal</a>
+        <a href="pagos.html"><i class="fas fa-wallet me-2"></i> Pagos Generales </a>
+        <a href="retencionIVA.html"><i class="fas fa-file-invoice-dollar me-2"></i> Retención IVA</a>
+        <a href="retencionISR.html"><i class="fas fa-receipt me-2"></i> Retención ISR</a>
+        <a href="planillaLuisRoca.html"><i class="fas fa-users me-2"></i> Planilla Luis Roca</a>
+        <a href="planillaProyecto.html"><i class="fas fa-briefcase me-2"></i> Planilla Proyecto</a>
+        <a href="igss.html"><i class="fas fa-building me-2"></i> IGSS Oficina</a>
+        <a href="agua.html"><i class="fas fa-tint me-2"></i> Servicio de Agua</a>
+        <a href="basura.html"><i class="fas fa-trash me-2"></i> Basura</a>
+        <a href="renta.html"><i class="fas fa-house me-2"></i> Renta</a>
+        <a href="subirPlanillas.html"><i class="fas fa-upload me-2"></i> Subir Planillas</a>
+        <a href="proyectos.html" class="active"><i class="fas fa-diagram-project me-2"></i> Proyectos</a>
+        <a href="#" id="btnCerrarSesion"><i class="fas fa-sign-out-alt me-2"></i> Cerrar sesión</a>
+    </div>
+
+    <div class="wrapper">
+        <div class="content" id="mainContent">
+            <!-- NAVBAR (sin botón de estado aquí) -->
+            <div class="navbar">
+                <button class="toggle-btn me-3" id="toggleBtn"><i class="fas fa-bars"></i></button>
+                <h5 class="mb-0 text-primary"><i class="fas fa-diagram-project me-2"></i>Proyecto Detalle</h5>
+            </div>
+
+            <!-- CARD CONTENIDO -->
+            <div class="card card-custom mt-4">
+
+                <!-- Encabezado de la card: Título + Botón de acción (aquí va el botón) -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+                    <h2 class="mb-2 mb-md-0" id="tituloProyecto">Gestión de Proyectos</h2>
+                    <button id="btnAccionEstado" class="btn d-none">
+                        <i class="fas fa-flag-checkered me-1"></i><span id="btnAccionTexto">Finalizar Proyecto</span>
+                    </button>
+                </div>
+
+                <!-- Resumen del proyecto -->
+                <div id="proyectoDetalle" class="mb-4"></div>
+
+                <!-- Movimientos -->
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="mb-0">Movimientos</h4>
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalMovimiento">
+                        <i class="fas fa-plus me-1"></i> Agregar Movimiento
+                    </button>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover bg-white rounded">
+                        <thead class="table-light">
+                            <tr>
+                                <th style="width:120px;">Fecha</th>
+                                <th>Descripción</th>
+                                <th style="width:160px;">Documento</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tablaMovimientos"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOASTS -->
+    <div class="toast-container position-fixed top-0 end-0 p-3" style="z-index:2000;">
+        <div id="toastExito" class="toast text-bg-success border-0" role="alert" aria-live="assertive"
+            aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body" id="mensajeExito">Operación exitosa.</div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+        <div id="toastError" class="toast text-bg-danger border-0" role="alert" aria-live="assertive"
+            aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body" id="mensajeError">Ocurrió un error.</div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: Agregar Movimiento -->
+    <div class="modal fade" id="modalMovimiento" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form id="formMovimiento" class="needs-validation" novalidate>
+                    <div class="modal-header">
+                        <h5 class="modal-title">Agregar Movimiento</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="movFormAlert" class="alert alert-danger d-none" role="alert"></div>
+
+                        <label class="form-label">Fecha</label>
+                        <input type="date" name="Fecha" class="form-control" required>
+                        <div class="invalid-feedback">La fecha es obligatoria.</div>
+
+                        <label class="form-label mt-2">Descripción</label>
+                        <input type="text" name="Descripcion" class="form-control" required>
+                        <div class="invalid-feedback">La descripción es obligatoria.</div>
+
+                        <label class="form-label mt-2">Documento</label>
+                        <input type="file" name="Documento" accept=".pdf,image/*" class="form-control">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-save me-1"></i> Guardar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: Confirmar Finalizar -->
+    <div class="modal fade" id="confirmFinalizarModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger"><i class="fas fa-triangle-exclamation me-2"></i> Confirmar
+                        finalización</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    ¿Seguro que deseas finalizar este proyecto? Esta acción lo marcará como <strong>Finalizado</strong>.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-danger" id="btnConfirmFinalizar"><i
+                            class="fas fa-flag-checkered me-1"></i> Finalizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: Confirmar Reanudar -->
+    <div class="modal fade" id="confirmReanudarModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success"><i class="fas fa-rotate-left me-2"></i> Confirmar reanudación
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    ¿Deseas reanudar este proyecto? Se pondrá en estado <strong>en proceso</strong>.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success" id="btnConfirmReanudar"><i
+                            class="fas fa-check me-1"></i> Reanudar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // --- UI base (sidebar, sesión) ---
+        const sidebar = document.getElementById("sidebar");
+        const mainContent = document.getElementById("mainContent");
+        document.getElementById("toggleBtn").addEventListener("click", () => {
+            sidebar.classList.toggle("show");
+            mainContent.classList.toggle("shifted");
+        });
+        try {
+            const usuario = JSON.parse(localStorage.getItem("usuario"));
+            const nombreUsuario = usuario?.nombre || usuario?.username || "Usuario";
+            document.getElementById("usuarioNombre").innerHTML = `<i class="fas fa-user me-2"></i> ${nombreUsuario}`;
+        } catch {
+            localStorage.removeItem("usuario"); window.location.href = "login.html";
+        }
+        document.getElementById("btnCerrarSesion").addEventListener("click", (e) => {
+            e.preventDefault(); localStorage.removeItem("usuario"); window.location.href = "login.html";
+        });
+
+        // --- Helpers Toasts ---
+        function mostrarToastExito(msg) {
+            const el = document.getElementById("toastExito");
+            document.getElementById("mensajeExito").textContent = msg;
+            new bootstrap.Toast(el, { delay: 2200 }).show();
+        }
+        function mostrarToastError(msg) {
+            const el = document.getElementById("toastError");
+            document.getElementById("mensajeError").textContent = msg;
+            new bootstrap.Toast(el, { delay: 2800 }).show();
+        }
+
+        // --- Detalle / Movimientos ---
+        const urlParams = new URLSearchParams(window.location.search);
+        const proyectoId = urlParams.get("id");
+
+        const detalle = document.getElementById("proyectoDetalle");
+        const tabla = document.getElementById("tablaMovimientos");
+        const form = document.getElementById("formMovimiento");
+        const movFormAlert = document.getElementById("movFormAlert");
+        const modalMovimiento = bootstrap.Modal.getOrCreateInstance(document.getElementById("modalMovimiento"));
+
+        const btnAccionEstado = document.getElementById("btnAccionEstado");
+        const btnAccionTexto = document.getElementById("btnAccionTexto");
+        const btnAccionIcon = btnAccionEstado.querySelector("i");
+
+        function setBadge(estado) {
+            const e = (estado || "").toString().toLowerCase();
+            if (e === "finalizado") return `<span class="badge-soft badge-finalizado">Finalizado</span>`;
+            // cualquier otro -> en proceso
+            return `<span class="badge-soft badge-activo">En Proceso</span>`;
+        }
+
+        async function cargarDetalle() {
+            const res = await fetch(`/api/proyectos/${proyectoId}`);
+            if (!res.ok) {
+                mostrarToastError("No se pudo cargar el proyecto.");
+                return;
+            }
+            const proyecto = await res.json();
+
+            // Título card
+            document.getElementById("tituloProyecto").textContent = proyecto.nombre || "Proyecto";
+
+            // Botón de acción arriba del cuadro (dinámico)
+            const estado = (proyecto.estado || "").toLowerCase();
+            if (estado === "finalizado") {
+                btnAccionEstado.className = "btn btn-success";
+                btnAccionTexto.textContent = "Reanudar Proyecto";
+                btnAccionIcon.className = "fas fa-rotate-left me-1";
+                btnAccionEstado.dataset.action = "reanudar";
+                btnAccionEstado.classList.remove("d-none");
+            } else {
+                btnAccionEstado.className = "btn btn-danger";
+                btnAccionTexto.textContent = "Finalizar Proyecto";
+                btnAccionIcon.className = "fas fa-flag-checkered me-1";
+                btnAccionEstado.dataset.action = "finalizar";
+                btnAccionEstado.classList.remove("d-none");
+            }
+
+            // Card detalle
+            const fechaTxt = proyecto.fechaInicio ? new Date(proyecto.fechaInicio).toLocaleDateString() : "";
+            const valorTxt = typeof proyecto.valor === "number" ? Number(proyecto.valor).toFixed(2) : (proyecto.valor || "0.00");
+
+            detalle.innerHTML = `
+        <div class="row g-3">
+          <div class="col-12 col-lg-12">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title mb-2">${proyecto.nombre ?? ""}</h5>
+                <p class="mb-1"><strong>Fecha de inicio:</strong> ${fechaTxt}</p>
+                <p class="mb-1"><strong>Valor:</strong> Q${valorTxt}</p>
+                <p class="mb-0"><strong>Estado:</strong> ${setBadge(proyecto.estado)}</p>
+              </div>
+            </div>
+          </div>
+        </div>`;
+
+            // Tabla movimientos
+            tabla.innerHTML = "";
+            (proyecto.movimientos || []).forEach(m => {
+                const fecha = m.fecha ? new Date(m.fecha).toLocaleDateString() : "";
+                const desc = m.descripcion ?? "";
+                const doc = m.tieneDocumento
+                    ? `<a class="btn btn-sm btn-outline-primary" href="/api/proyectos/movimiento/${m.id}/ver" target="_blank">
+               <i class="fas fa-eye me-1"></i> Ver
+             </a>`
+                    : '<span class="text-muted">Sin archivo</span>';
+
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+          <td>${fecha}</td>
+          <td style="max-width:520px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${desc}">
+            ${desc}
+          </td>
+          <td>${doc}</td>`;
+                tabla.appendChild(tr);
+            });
+        }
+
+        // Botón de acción (arriba del cuadro)
+        btnAccionEstado.addEventListener("click", () => {
+            const action = btnAccionEstado.dataset.action;
+            if (action === "finalizar") {
+                new bootstrap.Modal(document.getElementById("confirmFinalizarModal")).show();
+            } else if (action === "reanudar") {
+                new bootstrap.Modal(document.getElementById("confirmReanudarModal")).show();
+            }
+        });
+
+        // Confirmar Finalizar
+        document.getElementById("btnConfirmFinalizar").addEventListener("click", async () => {
+            const res = await fetch(`/api/proyectos/${proyectoId}/finalizar`, { method: "PUT" });
+            bootstrap.Modal.getInstance(document.getElementById("confirmFinalizarModal")).hide();
+            if (res.ok) {
+                await cargarDetalle();
+                mostrarToastExito("Proyecto finalizado correctamente.");
+            } else {
+                mostrarToastError("Error al finalizar el proyecto.");
+            }
+        });
+
+        // Confirmar Reanudar (usa tu endpoint)
+        document.getElementById("btnConfirmReanudar").addEventListener("click", async () => {
+            const res = await fetch(`/api/proyectos/${proyectoId}/reanudar`, { method: "PUT" });
+            bootstrap.Modal.getInstance(document.getElementById("confirmReanudarModal")).hide();
+            if (res.ok) {
+                await cargarDetalle();
+                mostrarToastExito("Proyecto reanudado correctamente.");
+            } else {
+                mostrarToastError("Error al reanudar el proyecto.");
+            }
+        });
+
+        // Guardar Movimiento (misma API y nombres)
+        const formMovimiento = document.getElementById("formMovimiento");
+        formMovimiento.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            movFormAlert.classList.add("d-none");
+            formMovimiento.classList.add("was-validated");
+            if (!formMovimiento.checkValidity()) {
+                movFormAlert.textContent = "Completa todos los campos obligatorios.";
+                movFormAlert.classList.remove("d-none");
+                return;
+            }
+            const formData = new FormData(formMovimiento);
+            formData.append("ProyectoId", proyectoId);
+
+            const res = await fetch(`/api/proyectos/${proyectoId}/movimientos`, {
+                method: "POST",
+                body: formData
+            });
+
+            if (res.ok) {
+                modalMovimiento.hide();
+                formMovimiento.reset();
+                formMovimiento.classList.remove("was-validated");
+                await cargarDetalle();
+                mostrarToastExito("Movimiento agregado correctamente.");
+            } else {
+                const msg = await res.text();
+                mostrarToastError(msg || "Error al guardar el movimiento.");
+            }
+        });
+
+        // Inicial
+        (function init() {
+            cargarDetalle();
+        })();
+    </script>
+</body>
+
+</html>

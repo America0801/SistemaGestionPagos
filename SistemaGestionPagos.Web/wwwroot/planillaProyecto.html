@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Planilla Proyecto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #e6f0f8
+        }
+
+        .wrapper {
+            display: flex;
+            height: 100vh;
+            overflow: hidden
+        }
+
+        .sidebar {
+            width: 240px;
+            background: #1e3a5f;
+            color: #fff;
+            position: fixed;
+            inset: 0 auto 0 0;
+            transform: translateX(-100%);
+            transition: transform .3s ease;
+            z-index: 1050
+        }
+
+        .sidebar.show {
+            transform: translateX(0)
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 14px 20px;
+            color: #cfe6ff;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(255, 255, 255, .1)
+        }
+
+        .sidebar a:hover,
+        .sidebar a.active {
+            background: #3f5f87;
+            color: #fff
+        }
+
+        .sidebar .user {
+            padding: 1rem 20px;
+            font-weight: bold;
+            border-bottom: 1px solid rgba(255, 255, 255, .1)
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 1.5rem;
+            overflow-y: auto;
+            background: #dbeaf7;
+            margin-left: 0;
+            transition: margin-left .3s ease
+        }
+
+        .content.shifted {
+            margin-left: 240px
+        }
+
+        .toggle-btn {
+            background: transparent;
+            border: none;
+            font-size: 24px;
+            color: #1e3a5f
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background: #fff;
+            padding: .75rem 1.25rem;
+            border-bottom: 2px solid #c0d3e8
+        }
+
+        .btn-primary,
+        .btn-success {
+            border-radius: 8px
+        }
+
+        .card-custom {
+            background: #fff;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .1)
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- SIDENAV -->
+    <div class="sidebar" id="sidebar">
+        <div class="user" id="usuarioNombre"><i class="fas fa-user me-2"></i> Usuario</div>
+        <a href="index.html"><i class="fas fa-bars me-2"></i> Menú Principal</a>
+        <a href="pagos.html"><i class="fas fa-wallet me-2"></i> Pagos Generales </a>
+        <a href="retencionIVA.html"><i class="fas fa-file-invoice-dollar me-2"></i> Retención IVA</a>
+        <a href="retencionISR.html"><i class="fas fa-receipt me-2"></i> Retención ISR</a>
+        <a href="planillaLuisRoca.html"><i class="fas fa-users me-2"></i> Planilla Luis Roca</a>
+        <a href="planillaProyecto.html" class="active"><i class="fas fa-briefcase me-2"></i> Planilla Proyecto</a>
+        <a href="igss.html"><i class="fas fa-building me-2"></i> IGSS Oficina</a>
+        <a href="agua.html"><i class="fas fa-tint me-2"></i> Servicio de Agua</a>
+        <a href="basura.html"><i class="fas fa-trash me-2"></i> Basura</a>
+        <a href="renta.html"><i class="fas fa-house me-2"></i> Renta</a>
+        <a href="subirPlanillas.html"><i class="fas fa-upload me-2"></i> Subir Planillas</a>
+        <a href="proyectos.html"><i class="fas fa-diagram-project me-2"></i> Proyectos</a>
+        <a href="#" id="btnCerrarSesion"><i class="fas fa-sign-out-alt me-2"></i> Cerrar sesión</a>
+    </div>
+
+    <!-- CONTENIDO -->
+    <div class="wrapper">
+        <div class="content" id="mainContent">
+            <div class="navbar">
+                <button class="toggle-btn me-3" id="toggleBtn"><i class="fas fa-bars"></i></button>
+                <h5 class="mb-0 text-primary"><i class="fas fa-briefcase me-2"></i>Planilla Proyecto</h5>
+            </div>
+
+            <div class="card card-custom mt-4">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="fw-bold mb-0">Pagos registrados</h4>
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalPago">
+                        <i class="fas fa-plus me-1"></i> Agregar Pago
+                    </button>
+                </div>
+
+                <table class="table table-bordered table-hover bg-white rounded">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Beneficiario</th>
+                            <th>Monto</th>
+                            <th>Descripción</th>
+                            <th>Factura</th>
+                            <th>Retención</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaPagos"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toasts -->
+    <div class="position-fixed top-0 end-0 p-3" style="z-index:2000">
+        <div id="toastMsg" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive"
+            aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body" id="toastBody">Ok</div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Crear/Editar -->
+    <div class="modal fade" id="modalPago" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form id="formularioPago" class="needs-validation" novalidate enctype="multipart/form-data">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Registrar Pago - Planilla Proyecto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="formAlert" class="alert alert-danger d-none" role="alert"></div>
+
+                        <input type="hidden" name="Id" id="pagoId" />
+                        <input type="hidden" name="TipoPago" value="Planilla Proyecto" />
+
+                        <label class="form-label">Fecha</label>
+                        <input type="date" name="Fecha" class="form-control" required />
+                        <div class="invalid-feedback">La fecha es obligatoria.</div>
+
+                        <label class="form-label mt-2">Beneficiario</label>
+                        <input type="text" name="Beneficiario" class="form-control" required />
+                        <div class="invalid-feedback">El beneficiario es obligatorio.</div>
+
+                        <label class="form-label mt-2">Monto</label>
+                        <input type="number" name="Monto" step="0.01" class="form-control" required />
+                        <div class="invalid-feedback">El monto es obligatorio.</div>
+
+                        <label class="form-label mt-2">Descripción</label>
+                        <input type="text" name="Descripcion" class="form-control" style="padding:20px" required />
+                        <div class="invalid-feedback">La descripción es obligatoria.</div>
+
+                        <label class="form-label mt-2">Factura (PDF o Imagen)</label>
+                        <input type="file" name="factura" accept=".pdf,.jpg,.jpeg,.png,.gif" class="form-control" />
+
+                        <label class="form-label mt-2">Retención (PDF o Imagen)</label>
+                        <input type="file" name="retencion" accept=".pdf,.jpg,.jpeg,.png,.gif" class="form-control" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-save me-1"></i> Guardar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Confirmar Eliminación -->
+    <div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger"><i class="fas fa-triangle-exclamation me-2"></i> Confirmar
+                        eliminación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">¿Seguro que deseas eliminar este pago? Esta acción no se puede deshacer.</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-danger" id="btnConfirmDelete"><i class="fas fa-trash me-1"></i>
+                        Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // UI
+        const sidebar = document.getElementById("sidebar");
+        const mainContent = document.getElementById("mainContent");
+        document.getElementById("toggleBtn").addEventListener("click", () => {
+            sidebar.classList.toggle("show");
+            mainContent.classList.toggle("shifted");
+        });
+
+        // Usuario
+        try {
+            const usuario = JSON.parse(localStorage.getItem("usuario"));
+            const nombreUsuario = usuario?.nombre || usuario?.username || "Usuario";
+            document.getElementById("usuarioNombre").innerHTML = `<i class="fas fa-user me-2"></i> ${nombreUsuario}`;
+        } catch {
+            localStorage.removeItem("usuario"); window.location.href = "login.html";
+        }
+        document.getElementById("btnCerrarSesion").addEventListener("click", (e) => {
+            e.preventDefault(); localStorage.removeItem("usuario"); window.location.href = "login.html";
+        });
+
+        // Elements & helpers
+        const tabla = document.getElementById("tablaPagos");
+        const form = document.getElementById("formularioPago");
+        const modalEl = document.getElementById("modalPago");
+        const bsModal = bootstrap.Modal.getOrCreateInstance(modalEl);
+        const toastEl = document.getElementById("toastMsg");
+        const toastBody = document.getElementById("toastBody");
+        const bsToast = new bootstrap.Toast(toastEl, { delay: 2000 });
+        const confirmEl = document.getElementById("confirmDeleteModal");
+        const confirmModal = new bootstrap.Modal(confirmEl);
+        const btnConfirmDelete = document.getElementById("btnConfirmDelete");
+        const formAlert = document.getElementById("formAlert");
+
+        const LIST_API = "/api/PagosApi/planillaProyecto";
+        const BASE_API = "/api/PagosApi";
+
+        function showToast(msg, variant = "success") {
+            toastEl.className = `toast align-items-center text-bg-${variant} border-0`;
+            toastBody.textContent = msg;
+            bsToast.show();
+        }
+        function showFormError(msg) {
+            formAlert.textContent = msg;
+            formAlert.classList.remove("d-none");
+        }
+        function hideFormError() {
+            formAlert.textContent = "";
+            formAlert.classList.add("d-none");
+        }
+
+        async function cargarPagos() {
+            const res = await fetch(LIST_API);
+            const datos = await res.json();
+            tabla.innerHTML = "";
+            datos.forEach(p => {
+                const id = p.Id ?? p.id;
+                const fecha = p.Fecha ?? p.fecha;
+                const monto = p.Monto ?? p.monto;
+                const beneficiario = p.Beneficiario ?? p.beneficiario;
+                const descripcion = p.Descripcion ?? p.descripcion ?? "";
+                const tieneFactura = p.TieneFactura ?? p.tieneFactura;
+                const tieneRetencion = p.TieneRetencion ?? p.tieneRetencion;
+
+                const facturaHTML = tieneFactura
+                    ? `<a class='btn btn-sm btn-outline-primary' href='${BASE_API}/ver-factura/${id}' target='_blank'><i class='fas fa-eye me-1'></i> Ver</a>`
+                    : '<span class="text-muted">Sin archivo</span>';
+
+                const retencionHTML = tieneRetencion
+                    ? `<a class='btn btn-sm btn-outline-secondary' href='${BASE_API}/ver-retencion/${id}' target='_blank'><i class='fas fa-eye me-1'></i> Ver</a>`
+                    : '<span class="text-muted">Sin archivo</span>';
+
+                const fila = document.createElement("tr");
+                fila.innerHTML = `
+          <td>${fecha ? new Date(fecha).toLocaleDateString() : ""}</td>
+          <td>${beneficiario ?? ""}</td>
+          <td>Q ${Number(monto || 0).toFixed(2)}</td>
+          <td style="max-width:300px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="${descripcion}">${descripcion}</td>
+          <td>${facturaHTML}</td>
+          <td>${retencionHTML}</td>
+          <td class="text-nowrap">
+            <button class="btn btn-sm btn-warning me-2" onclick="editarPago(${id})"><i class="fas fa-edit"></i></button>
+            <button class="btn btn-sm btn-danger" onclick="openDeleteConfirm(${id})"><i class="fas fa-trash"></i></button>
+          </td>`;
+                tabla.appendChild(fila);
+            });
+        }
+
+        window.editarPago = async function (id) {
+            const res = await fetch(`${BASE_API}/${id}`);
+            if (!res.ok) return showToast("Error al obtener datos del pago", "danger");
+            const p = await res.json();
+
+            document.getElementById("pagoId").value = p.Id ?? p.id ?? "";
+            form.Fecha.value = (p.Fecha ?? p.fecha ?? "").split("T")[0];
+            form.Beneficiario.value = p.Beneficiario ?? p.beneficiario ?? "";
+            form.Monto.value = p.Monto ?? p.monto ?? 0;
+            form.Descripcion.value = p.Descripcion ?? p.descripcion ?? "";
+            hideFormError();
+            form.classList.remove("was-validated");
+            bsModal.show();
+        }
+
+        let deleteId = null;
+        window.openDeleteConfirm = function (id) {
+            deleteId = id;
+            confirmModal.show();
+        }
+        btnConfirmDelete.addEventListener("click", async () => {
+            if (!deleteId) return;
+            const res = await fetch(`${BASE_API}/${deleteId}`, { method: "DELETE" });
+            confirmModal.hide();
+            if (res.ok) { await cargarPagos(); showToast("Pago eliminado correctamente"); }
+            else showToast("Error al eliminar el pago", "danger");
+            deleteId = null;
+        });
+
+        form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            hideFormError();
+            form.classList.add("was-validated");
+            if (!form.checkValidity()) {
+                showFormError("Completa los campos obligatorios");
+                return;
+            }
+
+            const id = (document.getElementById("pagoId").value || "").trim();
+            const fd = new FormData(form);
+            // FIX: no enviar Id vacío para evitar el 400 de validación
+            if (!id) fd.delete("Id");
+
+            const url = id ? `${BASE_API}/${id}` : BASE_API;
+            const method = id ? "PUT" : "POST";
+
+            const res = await fetch(url, { method, body: fd });
+            if (res.ok) {
+                form.reset();
+                document.getElementById("pagoId").value = "";
+                form.classList.remove("was-validated");
+                bsModal.hide();
+                await cargarPagos();
+                showToast(id ? "Pago actualizado correctamente" : "Pago creado correctamente");
+            } else {
+                try {
+                    const data = await res.json();
+                    const msg = data?.title || (data?.errors && Object.values(data.errors).flat().join(" ")) || "Ocurrió un error al guardar.";
+                    showFormError(msg);
+                } catch {
+                    showFormError("Ocurrió un error al guardar. Revisa los campos e intenta de nuevo.");
+                }
+            }
+        });
+
+        cargarPagos();
+    </script>
+</body>
+
+</html>

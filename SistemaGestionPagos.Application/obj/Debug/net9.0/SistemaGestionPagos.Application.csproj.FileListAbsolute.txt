@@ -1,0 +1,15 @@
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\bin\Debug\net9.0\SistemaGestionPagos.Application.deps.json
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\bin\Debug\net9.0\SistemaGestionPagos.Application.dll
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\bin\Debug\net9.0\SistemaGestionPagos.Application.pdb
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\bin\Debug\net9.0\SistemaGestionPagos.Domain.dll
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\bin\Debug\net9.0\SistemaGestionPagos.Domain.pdb
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.csproj.AssemblyReference.cache
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.AssemblyInfoInputs.cache
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.AssemblyInfo.cs
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.csproj.CoreCompileInputs.cache
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaG.A0C416AD.Up2Date
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.dll
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\refint\SistemaGestionPagos.Application.dll
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.pdb
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\ref\SistemaGestionPagos.Application.dll
