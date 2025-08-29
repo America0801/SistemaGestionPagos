@@ -1,11 +1,10 @@
 services:
   - type: web
     name: sistema-gestion-pagos
-    runtime: dotnet
-    buildCommand: "dotnet publish ./SistemaGestionPagos.Web/SistemaGestionPagos.Web.csproj -c Release -o out"
-    startCommand: "dotnet out/SistemaGestionPagos.Web.dll --urls=http://0.0.0.0:$PORT"
+    env: docker
+    plan: free
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
       - key: ConnectionStrings__DefaultConnection
-        sync: false   # la defines manualmente en Render
+        sync: false
