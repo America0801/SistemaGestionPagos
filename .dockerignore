@@ -1,0 +1,8 @@
+**/bin
+**/obj
+.git
+.gitignore
+*.md
+*.yaml
+*.yml
+Dockerfile
