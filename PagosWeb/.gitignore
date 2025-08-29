@@ -27,4 +27,14 @@ coverage
 *.sln
 *.sw?
 
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+*.log
+*.sql
+*.exe
+*.db
+
 *.tsbuildinfo

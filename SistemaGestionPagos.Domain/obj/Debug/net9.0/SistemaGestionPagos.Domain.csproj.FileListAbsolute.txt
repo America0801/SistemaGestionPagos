@@ -5,6 +5,7 @@ C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\S
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.AssemblyInfoInputs.cache
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.AssemblyInfo.cs
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.sourcelink.json
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.dll
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\refint\SistemaGestionPagos.Domain.dll
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Domain\obj\Debug\net9.0\SistemaGestionPagos.Domain.pdb

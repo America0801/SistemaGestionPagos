@@ -8,6 +8,7 @@ C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.AssemblyInfoInputs.cache
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.AssemblyInfo.cs
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.csproj.CoreCompileInputs.cache
+C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.sourcelink.json
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaG.A0C416AD.Up2Date
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\SistemaGestionPagos.Application.dll
 C:\Users\rustr\SistemaGestionPagos\SistemaGestionPagos.Application\obj\Debug\net9.0\refint\SistemaGestionPagos.Application.dll
