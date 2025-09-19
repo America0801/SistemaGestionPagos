@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaGestionPagos.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2dfda64a4d3205534f731aaa94b3e8e12bd82f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e32902c2ef3b65b8ea9935894f6309094aea4fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaGestionPagos.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaGestionPagos.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
