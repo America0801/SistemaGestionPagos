@@ -1,8 +1,25 @@
-**/bin
-**/obj
+# Ignorar binarios y compilados
+bin/
+obj/
+
+# Archivos de usuario de VS/VSCode
+.vs/
+.vscode/
+
+# Archivos temporales
+*.user
+*.suo
+*.cache
+*.log
+
+# Node y frontend
+node_modules/
+dist/
+
+# Git
 .git
 .gitignore
-*.md
-*.yaml
-*.yml
-Dockerfile
+
+# Otros
+Dockerfile*
+docker-compose*
