@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaGestionPagos.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2dfda64a4d3205534f731aaa94b3e8e12bd82f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c3959080f6ce4a53b820eb5986d5d134b0b4f23")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaGestionPagos.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaGestionPagos.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
